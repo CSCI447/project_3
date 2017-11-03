@@ -1,36 +1,37 @@
 from feed_forward import *
+from genetic_alg import *
 import csv
 import codecs
 import time
 
-neural_net = "GA"
-#inputArray = numpy.zeros(shape=(8, 1))
-#expectedOutputArray = numpy.zeros(shape=(8, 1))
-inputArray = []
-expectedOutputArray = []
+neural_net = "GA"                           #"backprop" or "GA"
+inputArray = numpy.zeros(shape=(8, 1))
+expectedOutputArray = numpy.zeros(shape=(8, 1))
+inputArray_ga = []
+expectedOutputArray_ga = []
 cross_variable = 0
 with codecs.open('Data_old_fortest/2_dim.csv', 'r', encoding='utf-8') as inputcsvfile:
     csv_input = csv.reader(inputcsvfile, delimiter=",")
     for row in csv_input:
         #print(cross_variable)
-        #numpy.append(inputArray[cross_variable % 8], row)
-        inputArray.append(row)
+        numpy.append(inputArray[cross_variable % 8], row)
+        inputArray_ga.append(row)
         cross_variable += 1
 
 cross_variable = 0
 with codecs.open('Data_old_fortest/2_dim_out.csv', 'r', encoding='utf-8') as outputcsvfile:
     csv_output = csv.reader(outputcsvfile, delimiter=",")
     for row in csv_output:
-        #numpy.append(expectedOutputArray[cross_variable % 8], row)
-        expectedOutputArray.append(row)
+        numpy.append(expectedOutputArray[cross_variable % 8], row)
+        expectedOutputArray_ga.append(row)
         cross_variable += 1
 #print(inputArray)
 t0 = time.time()
 
 if (neural_net == "GA"):
-    hidden_nodes_amount = 100               #not used
-    output_nodes_amount = 1                 #not used
-    activation_type = "s"                   #not used
+    hidden_nodes_amount = 4
+    output_nodes_amount = 1
+    activation_type = "s"
     max_generations = 1000
     pop_size = 20
     num_tournament_participants = 10
@@ -38,31 +39,43 @@ if (neural_net == "GA"):
     mutation_rate = .25
     crossover_rate = .75
     threshold = .1
-    output = []
+    output = numpy.ones(shape=(1, pop_size))
+    run_condition = "epocs"              #"test" or "epocs"
 
     # for j in range(1):                #for total epocs
-    GA = FF(inputArray, expectedOutputArray, hidden_nodes_amount, output_nodes_amount, activation_type,  pop_size, num_tournament_participants, num_tournament_victors, mutation_rate, crossover_rate)
-    GA.initialize_ga()
-    for j in range(max_generations):
-        for i in range(len(inputArray)):
-            for individual in range(pop_size):
-                output.append(GA.feed_GA(i))
-                GA.calc_fit(i, output[individual])
-            GA.tournament()
-            GA.mutate()
-            GA.winner(expectedOutputArray)
-        print("Generation %d" % j)
-    t1 = time.time()
-    runtime = t1-t0
-    print("Runtime of %d Generations: %f" % (max_generations, runtime))
+    if (run_condition == "epocs"):
+        for j in range(max_generations):
+            for i in range(len(inputArray_ga)):
+                for individual in range(pop_size):
+                    output[individual] = GA.feed_GA(i)
+                    GA.calc_fit(i, output[individual])
+                    print(output)
+                GA.tournament()
+                GA.mutate()
+                GA.winner(expectedOutputArray_ga)
+            print("Generation %d" % j)
+        t1 = time.time()
+        runtime = t1-t0
+        print("Runtime of %d Generations: %f" % (max_generations, runtime))
+    elif (run_condition == "test"):
+        GA = GA(inputArray_ga, expectedOutputArray_ga, hidden_nodes_amount, output_nodes_amount, pop_size, num_tournament_participants, num_tournament_victors, mutation_rate, crossover_rate)
+        GA.initialize_ga()
+        print(pop_size)
+        for individual in range(pop_size):
+            output.append(GA.feed_GA(0))
+            GA.calc_fit(0, output[individual])
+            print(output.__sizeof__())
+        GA.tournament()
+        GA.mutate()
+        GA.winner(expectedOutputArray_ga)
 
 if (neural_net == "backprop"):
     hidden_layer_amount = 0
     hidden_nodes_amount = 800
     output_nodes_amount = 1
-    epocs = 100000
+    epocs = 1000
     activation_type = "s"               #set: "s" for sig,
-    converge_test = "test"          #set "epoc", "sum_error", "optimize" or "test"
+    converge_test = "epoc"          #set "epoc", "sum_error", "optimize" or "test"
     sum_error = 1                       #dont change
     opt_hidden = 0                      #dont change
     opt_epocs = 100000                  #dont change
