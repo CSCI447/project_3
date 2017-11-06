@@ -29,7 +29,7 @@ with codecs.open('Data_old_fortest/2_dim_out.csv', 'r', encoding='utf-8') as out
 t0 = time.time()
 
 if (neural_net == "GA"):
-    hidden_nodes_amount = 4
+    hidden_nodes_amount = 17
     output_nodes_amount = 1
     activation_type = "s"
     max_generations = 1000
@@ -39,20 +39,24 @@ if (neural_net == "GA"):
     mutation_rate = .25
     crossover_rate = .75
     threshold = .1
-    output = numpy.ones(shape=(1, pop_size))
+    output = numpy.ones(shape=(pop_size, 1))
     run_condition = "epocs"              #"test" or "epocs"
 
     # for j in range(1):                #for total epocs
     if (run_condition == "epocs"):
+        GA = GA(inputArray_ga, expectedOutputArray_ga, hidden_nodes_amount, output_nodes_amount, pop_size, num_tournament_participants, num_tournament_victors, mutation_rate, crossover_rate)
+        GA.initialize_ga()
         for j in range(max_generations):
-            for i in range(len(inputArray_ga)):
-                for individual in range(pop_size):
-                    output[individual] = GA.feed_GA(i)
-                    GA.calc_fit(i, output[individual])
-                    print(output)
-                GA.tournament()
-                GA.mutate()
-                GA.winner(expectedOutputArray_ga)
+            # for i in range(len(inputArray_ga)):
+            #     for individual in range(pop_size):
+            GA.zero_error()
+            for individual in range(pop_size):
+                for i in range(len(inputArray_ga)):
+                    output[individual] = GA.feed_GA(i, individual)
+                    GA.calc_fit(individual, i, output[individual])
+            GA.tournament()
+            GA.mutate()
+            GA.winner(i, expectedOutputArray_ga)
             print("Generation %d" % j)
         t1 = time.time()
         runtime = t1-t0
@@ -60,14 +64,39 @@ if (neural_net == "GA"):
     elif (run_condition == "test"):
         GA = GA(inputArray_ga, expectedOutputArray_ga, hidden_nodes_amount, output_nodes_amount, pop_size, num_tournament_participants, num_tournament_victors, mutation_rate, crossover_rate)
         GA.initialize_ga()
-        print(pop_size)
         for individual in range(pop_size):
-            output.append(GA.feed_GA(0))
-            GA.calc_fit(0, output[individual])
-            print(output.__sizeof__())
+            output[individual] = GA.feed_GA(0, individual)
+            GA.calc_fit(individual, 0, output[individual])
+            #print(output.__sizeof__())
         GA.tournament()
         GA.mutate()
-        GA.winner(expectedOutputArray_ga)
+        GA.winner(0, expectedOutputArray_ga)
+
+        # # for j in range(1):                #for total epocs
+        # if (run_condition == "epocs"):
+        #     for j in range(max_generations):
+        #         for i in range(len(inputArray_ga)):
+        #             for individual in range(pop_size):
+        #                 output[individual] = GA.feed_GA(i)
+        #                 GA.calc_fit(individual, i, output[individual])
+        #             GA.tournament()
+        #             GA.mutate()
+        #             GA.winner(expectedOutputArray_ga)
+        #         print("Generation %d" % j)
+        #     t1 = time.time()
+        #     runtime = t1 - t0
+        #     print("Runtime of %d Generations: %f" % (max_generations, runtime))
+        # elif (run_condition == "test"):
+        #     GA = GA(inputArray_ga, expectedOutputArray_ga, hidden_nodes_amount, output_nodes_amount, pop_size,
+        #             num_tournament_participants, num_tournament_victors, mutation_rate, crossover_rate)
+        #     GA.initialize_ga()
+        #     for individual in range(pop_size):
+        #         output[individual] = GA.feed_GA(0, individual)
+        #         GA.calc_fit(individual, 0, output[individual])
+        #         # print(output.__sizeof__())
+        #     GA.tournament()
+        #     GA.mutate()
+        #     GA.winner(0, expectedOutputArray_ga)
 
 if (neural_net == "backprop"):
     hidden_layer_amount = 0
