@@ -1,6 +1,7 @@
 import random
 import math
 from math import exp
+import sys
 
 import numpy
 
@@ -17,8 +18,10 @@ class GA:
         self.crossover_rate = crossover_rate
         self.population = []                                                    # for GA, contains weights
         self.population_error = numpy.ones(shape=(pop_size, 1))                                              # for GA
-        self.threshold = 1000000
+        self.threshold = 100
         self.activation_type = "s"
+        self.num_of_hidden = num_of_hidden
+        self.all_runs = []
 
     def feed_GA(self, row, individual):
         self.v_1 = self.input_values[row]                                     #index is input value row, self.population[individual][0] is correct way to access pop weights
@@ -137,19 +140,33 @@ class GA:
                 if random.random() < self.mutation_rate:
                     self.population[j][i] += (random.random() * 3)
 
-    def winner(self, data_row, expectedOutputArray):
+    def winner(self, epoch):
+        print("Error = %f" % (self.population_error[0]))
         sum_error = 0
         it = 0
+        best_chrome = []
         for individual in range(self.pop_size):
             if (self.population_error[individual] < self.threshold):
-                return "done"
-            # output = self.feed_GA(data_row, individual)
-            # #print(int(expectedOutputArray[data_row][0]) - output)
-            # sum_error += (int(expectedOutputArray[data_row][0]) - output)
-            # it += 1
-            #print("Error = %f, Iteration = %d" % (sum_error, it))
-        # print("Error = %f" % (self.population_error[0]))
-        print("Error = %f" % (self.population_error[0]))
+                chrome = []
+                for i in range(self.num_of_hidden):
+                    for j in range(len(self.w_1[0])):
+                        #print(self.population[individual][0][j][i])
+                        chrome.append(self.population[individual][0][i][j])
+                for i in range(len(self.w_2)):
+                    for j in range(self.num_of_hidden):
+                        chrome.append(self.population[individual][1][i][j])
+                print("The Winning Chromosome is Individual %d on Epoch %d" % (individual, epoch))
+                print(chrome)
+                sys.exit()
+            build_chrom = (self.population_error[individual], individual)
+            best_chrome.append(build_chrom)
+        best_chrome = sorted(best_chrome, key=lambda student: student[0])
+        return_chrome = self.population_error[best_chrome[0][1]], self.population[best_chrome[0][1]]
+        self.all_runs.append(return_chrome)
+
+    def sort_all_runs(self):
+        self.all_runs = sorted(self.all_runs, key=lambda student: student[0])
+        return self.all_runs[0][1]
 
     def initialize_ga(self):
         self.population = []

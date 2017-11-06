@@ -1,14 +1,18 @@
 from feed_forward import *
 from genetic_alg import *
+from differencial_evo import *
 import csv
 import codecs
 import time
 
-neural_net = "GA"                           #"backprop" or "GA"
+
+neural_net = "GA"                           #"backprop" or "GA" or "DE"
 inputArray = numpy.zeros(shape=(8, 1))
 expectedOutputArray = numpy.zeros(shape=(8, 1))
 inputArray_ga = []
+inputArray_de = []
 expectedOutputArray_ga = []
+expectedOutputArray_de = []
 cross_variable = 0
 with codecs.open('Data_old_fortest/2_dim.csv', 'r', encoding='utf-8') as inputcsvfile:
     csv_input = csv.reader(inputcsvfile, delimiter=",")
@@ -16,6 +20,7 @@ with codecs.open('Data_old_fortest/2_dim.csv', 'r', encoding='utf-8') as inputcs
         #print(cross_variable)
         numpy.append(inputArray[cross_variable % 8], row)
         inputArray_ga.append(row)
+        inputArray_de.append(row)
         cross_variable += 1
 
 cross_variable = 0
@@ -24,21 +29,41 @@ with codecs.open('Data_old_fortest/2_dim_out.csv', 'r', encoding='utf-8') as out
     for row in csv_output:
         numpy.append(expectedOutputArray[cross_variable % 8], row)
         expectedOutputArray_ga.append(row)
+        expectedOutputArray_de.append(row)
         cross_variable += 1
 #print(inputArray)
 t0 = time.time()
 
-if (neural_net == "GA"):
+if (neural_net == "DE"):
+    hidden_nodes_amount = 17
+    output_nodes_amount = 1
+    max_generations = 1
+    pop_size = 20
+    run_condition = "epocs"
+    output = numpy.ones(shape=(pop_size, 1))
+
+    if(run_condition == "epocs"):
+        DE = DE(inputArray_de, expectedOutputArray_de, hidden_nodes_amount, output_nodes_amount, pop_size)
+        DE.initialize_de()
+        for j in range(max_generations):
+            for individual in range(pop_size):
+                for i in range(len(inputArray_ga)):
+                    output[individual] = DE.feed_DE(i, individual)
+                    DE.calc_fit(individual, i, output[individual])
+            DE.evolve()
+
+
+
+elif (neural_net == "GA"):
     hidden_nodes_amount = 17
     output_nodes_amount = 1
     activation_type = "s"
-    max_generations = 1000
+    max_generations = 200
     pop_size = 20
     num_tournament_participants = 10
     num_tournament_victors = 5
     mutation_rate = .25
     crossover_rate = .75
-    threshold = .1
     output = numpy.ones(shape=(pop_size, 1))
     run_condition = "epocs"              #"test" or "epocs"
 
@@ -47,8 +72,6 @@ if (neural_net == "GA"):
         GA = GA(inputArray_ga, expectedOutputArray_ga, hidden_nodes_amount, output_nodes_amount, pop_size, num_tournament_participants, num_tournament_victors, mutation_rate, crossover_rate)
         GA.initialize_ga()
         for j in range(max_generations):
-            # for i in range(len(inputArray_ga)):
-            #     for individual in range(pop_size):
             GA.zero_error()
             for individual in range(pop_size):
                 for i in range(len(inputArray_ga)):
@@ -56,21 +79,36 @@ if (neural_net == "GA"):
                     GA.calc_fit(individual, i, output[individual])
             GA.tournament()
             GA.mutate()
-            GA.winner(i, expectedOutputArray_ga)
+            GA.winner(j)
             print("Generation %d" % j)
+
+#############################DONE CONDITION#######################################
+
+        best_chrome = GA.sort_all_runs()
+        final_chrome = []
+        for i in range(hidden_nodes_amount):
+            for j in range(len(inputArray_ga[0][0])):
+                # print(self.population[individual][0][j][i])
+                final_chrome.append(best_chrome[0][i][j])
+        for i in range(len(expectedOutputArray_ga[0])):
+            for j in range(hidden_nodes_amount):
+                final_chrome.append(best_chrome[1][i][j])
+        print("best chrome")
+        print(final_chrome)
         t1 = time.time()
         runtime = t1-t0
         print("Runtime of %d Generations: %f" % (max_generations, runtime))
-    elif (run_condition == "test"):
-        GA = GA(inputArray_ga, expectedOutputArray_ga, hidden_nodes_amount, output_nodes_amount, pop_size, num_tournament_participants, num_tournament_victors, mutation_rate, crossover_rate)
-        GA.initialize_ga()
-        for individual in range(pop_size):
-            output[individual] = GA.feed_GA(0, individual)
-            GA.calc_fit(individual, 0, output[individual])
-            #print(output.__sizeof__())
-        GA.tournament()
-        GA.mutate()
-        GA.winner(0, expectedOutputArray_ga)
+
+    # elif (run_condition == "test"):
+    #     GA = GA(inputArray_ga, expectedOutputArray_ga, hidden_nodes_amount, output_nodes_amount, pop_size, num_tournament_participants, num_tournament_victors, mutation_rate, crossover_rate)
+    #     GA.initialize_ga()
+    #     for individual in range(pop_size):
+    #         output[individual] = GA.feed_GA(0, individual)
+    #         GA.calc_fit(individual, 0, output[individual])
+    #         #print(output.__sizeof__())
+    #     GA.tournament()
+    #     GA.mutate()
+    #     GA.winner(0, expectedOutputArray_ga)
 
         # # for j in range(1):                #for total epocs
         # if (run_condition == "epocs"):
