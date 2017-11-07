@@ -184,30 +184,6 @@ class ES:
             temp_2 = self.w_2.dot(id_array)
             self.population.append([temp_1, temp_2])
 
-    def winner(self, epoch):
-        print("Error = %f" % (self.population_error[0]))
-        sum_error = 0
-        it = 0
-        best_chrome = []
-        for individual in range(self.pop_size):
-            if ((self.population_error[individual] < self.threshold) and (self.population_error[individual] > -(self.threshold))):
-                chrome = []
-                for i in range(self.num_of_hidden):
-                    for j in range(len(self.w_1[0])):
-                        chrome.append(self.population[individual][0][i][j])
-                for i in range(len(self.w_2)):
-                    for j in range(self.num_of_hidden):
-                        chrome.append(self.population[individual][1][i][j])
-                print("The Winning Chromosome is Individual %d on Epoch %d" % (individual, epoch))
-                print("Error = %f" % self.population_error[individual])
-                print(chrome)
-                sys.exit()
-            build_chrome = (self.population_error[individual], individual)
-            best_chrome.append(build_chrome)
-        best_chrome = sorted(best_chrome, key=lambda student: student[0])
-        return_chrome = self.population_error[best_chrome[0][1]], self.population[best_chrome[0][1]]
-        self.all_runs.append(return_chrome)
-
     def activation(self, value):
         if (self.activation_type == "s"):                           #for activation in ff
             return self.sigmoid(value)                              #use "s" for sigmoid, set in __init__ file

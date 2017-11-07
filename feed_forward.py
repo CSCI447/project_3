@@ -9,6 +9,8 @@ class FF:
 
         self.input_values = numpy.array(inputs, dtype=float)
         self.expected = numpy.array(expected, dtype=float)
+        self.test_inputs = numpy.array(inputs, dtype=float)
+        self.test_outputs = numpy.array(expected, dtype=float)
         self.hidden_node_val = numpy.zeros(shape=(num_of_hidden, 1))
         self.output = numpy.zeros(shape=(num_of_outs, 1))
         self.w_1 = numpy.ones(shape=(num_of_hidden, len(inputs[0])))             #array size rows = # hidden nodes, cols = # if inputs
@@ -19,8 +21,23 @@ class FF:
         self.activation_type = activation_type
         self.v_1 = numpy.ones(shape=(len(self.input_values[0]), 1))
 
+    def update_in_out(self, inputs, expected, test_in, test_expected):
+        self.input_values = numpy.array(inputs, dtype=float)
+        self.expected = numpy.array(expected, dtype=float)
+        self.test_inputs = numpy.array(test_in, dtype=float)
+        self.test_outputs = numpy.array(test_expected, dtype=float)
+
     def feed_forward(self, index):
         self.v_1 = self.input_values[index]
+        temp_node_val = self.v_1.dot(self.w_1.T)
+        for i in range(len(temp_node_val)):
+            temp_node_val[i] = self.activation(temp_node_val[i])
+        self.hidden_node_val = temp_node_val
+        self.output = self.hidden_node_val.dot(self.w_2.T)
+        return self.output
+
+    def feed_forward_test(self, index):
+        self.v_1 = self.test_inputs[index]
         temp_node_val = self.v_1.dot(self.w_1.T)
         for i in range(len(temp_node_val)):
             temp_node_val[i] = self.activation(temp_node_val[i])

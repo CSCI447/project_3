@@ -20,7 +20,7 @@ class GA:
         self.crossover_rate = crossover_rate
         self.population = []                                                    # for GA, contains weights
         self.population_error = numpy.ones(shape=(pop_size, 1))                                              # for GA
-        self.threshold = 10
+        self.threshold = 1
         self.activation_type = "s"
         self.num_of_hidden = num_of_hidden
         self.all_runs = []
