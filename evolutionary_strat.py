@@ -55,59 +55,9 @@ class GA:
     def calc_fit(self, individual, data_row, output):
         self.population_error[individual] += int(self.expected[data_row][0]) - output
 
-    def tournament(self):
-        participants_chrome = []                                                     #random.sample(self.population, self.num_tournament_participants)
-        participants_error = []
-        return_victors = []
-        p = list(range(0, self.pop_size))                                           #list of numbers 0 to pop_size
-        part_indices = random.sample(p, self.num_tournament_participants)           #generate num_tournament_participants number of reference indices
-        for i in range(self.num_tournament_participants):
-            temp_chrome = (self.population[part_indices[i]], part_indices[i])       #get weights for a chromesome
-            participants_chrome.append(temp_chrome)
-            temp_error = self.population_error[part_indices[i]], part_indices[i]
-            participants_error.append(temp_error)
-        sorted_error = sorted(participants_error, key=lambda student: student[0])            #I think this is working, maybe not tho
-        for i in range(self.num_tournament_victors):
-            return_victors.append(sorted_error[i][1])
-        self.mate(return_victors)
-        del participants_chrome
-        del participants_error
-        del return_victors
+    ################################ES METHODS########################################
 
-    def mate(self, return_victors):
-        children = []
-        for p1 in return_victors:
-            for p2 in return_victors:
-                if not (p1 == p2):
-                    children.append(self.crossover(p1, p2))
-        for i in range(len(self.population[0])):
-            for j in range(len(self.population[0][0])):
-                self.population[j][i][0] = children[j][i][0]
 
-    def crossover(self, p1, p2):
-        p1 = self.population[p1]
-        p2 = self.population[p2]
-        current = 0
-        weight_1 = []
-        weight_2 = []
-        child = []
-        for i in range(len(p1[0])):
-            if (random.random() < self.crossover_rate):
-                current = (current+1)%2
-            if (current == 0):
-                weight_1.append(p1[0][i])
-            else:
-                weight_1.append(p2[0][i])
-        for i in range(len(p1[1])):
-            if (random.random() < self.crossover_rate):
-                current = (current+1)%2
-            if (current == 0):
-                weight_2.append(p1[1][i])
-            else:
-                weight_2.append(p2[1][i])
-        child.append(weight_1)
-        child.append(weight_2)
-        return child
 
     def mutate(self):
         for j in range(len(self.population)):
@@ -162,4 +112,3 @@ class GA:
 
     def sigmoid(self, value):
         return 1.0 / (1.0 + exp(-value))
-
