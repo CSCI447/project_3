@@ -1,12 +1,13 @@
 from feed_forward import *
 from genetic_alg import *
 from differencial_evo import *
+from evolutionary_strat import *
 import csv
 import codecs
 import time
 
 
-neural_net = "DE"                           #"backprop" or "GA" or "DE"
+neural_net = "ES"                           #"backprop" or "GA" or "DE" or "ES"
 inputArray = []
 expectedOutputArray = []
 inputArray_ga = []
@@ -33,8 +34,68 @@ with codecs.open('Data_old_fortest/2_dim_out.csv', 'r', encoding='utf-8') as out
 t0 = time.time()
 len_in_outs = len(inputArray)
 
+if (neural_net == "ES"):
+    hidden_nodes_amount = 4
+    output_nodes_amount = 1
+    max_generations = 1000
+    pop_size = 20
+    run_condition = "epocs"
+    output = numpy.ones(shape=(pop_size, 1))
+    mutation_rate = .25
+    crossover_rate = .75
+    cross_valid_variable = 0
 
-if (neural_net == "DE"):
+    if(run_condition == "epocs"):
+        ES = ES(inputArray_de, expectedOutputArray_de, hidden_nodes_amount, output_nodes_amount, pop_size, mutation_rate, crossover_rate)
+        ES.initialize_ES()
+        for j in range(max_generations):
+            train_inputs = []
+            train_outputs = []
+            test_inputs = []
+            test_outputs = []
+            ES.zero_error()
+            for i in range(len_in_outs - int((len_in_outs / cross_valid_fold))):  # manual crossvalidation
+                train_inputs.append(inputArray_ga[cross_valid_variable % len_in_outs])
+                train_outputs.append(expectedOutputArray_ga[cross_valid_variable % len_in_outs])
+                cross_valid_variable += 1
+            for i in range(int((len_in_outs / cross_valid_fold))):
+                test_inputs.append(inputArray_ga[cross_valid_variable % len_in_outs])
+                test_outputs.append(expectedOutputArray_ga[cross_valid_variable % len_in_outs])
+                cross_valid_variable += 1
+            ES.update_in_out(train_inputs, train_outputs, test_inputs, test_outputs)
+            for individual in range(pop_size):
+                for i in range(len(train_inputs)):
+                    output[individual] = ES.feed_ES(i, individual)
+                    ES.calc_fit(individual, i, output[individual])
+            ES.evolve()
+            ES.winner(j)
+            test_final = 0
+
+            for i in range(len(test_inputs)):
+                output[i] = ES.feed_testing_ES(i, 0)
+                test_final += int(test_outputs[i][0]) - output[i]
+            print("Test Sum Error = %f" % test_final)
+            print("Generation %d" % j)
+
+            #############################DONE CONDITION#######################################
+
+        best_chrome = ES.sort_all_runs()
+        final_chrome = []
+        for i in range(hidden_nodes_amount):
+            for j in range(len(inputArray_ga[0][0])):
+                # print(self.population[individual][0][j][i])
+                final_chrome.append(best_chrome[0][i][j])
+        for i in range(len(expectedOutputArray_ga[0])):
+            for j in range(hidden_nodes_amount):
+                final_chrome.append(best_chrome[1][i][j])
+        print("best chrome")
+        print(final_chrome)
+        t1 = time.time()
+        runtime = t1 - t0
+        print("Runtime of %d Generations: %f" % (max_generations, runtime))
+
+
+elif (neural_net == "DE"):
     hidden_nodes_amount = 20
     output_nodes_amount = 1
     max_generations = 100

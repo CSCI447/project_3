@@ -55,9 +55,6 @@ class DE:
 
     def feed_testing_DE(self, row, individual):
         self.v_1 = self.test_inputs[row]                                    #index is input value row, self.population[individual][0] is correct way to access pop weights
-        # print(self.population[individual][1])
-        # print(individual)
-        # sys.exit()
         test_w1 = numpy.array(self.population[individual][0])
         test_w2 = numpy.array(self.population[individual][1])
         #temp_node_val = self.population[individual][0].dot(self.v_1)            #temp node is transition between v_1 and hidden_valuse.  This step multiplies the values v_1 * connect weights
@@ -177,6 +174,7 @@ class DE:
 
     def zero_error(self):
         self.population_error = numpy.ones(shape=(self.pop_size, 1))
+        self.child_error = numpy.ones(shape=(3, 1))
 
     def activation(self, value):
         if (self.activation_type == "s"):                           #for activation in ff
