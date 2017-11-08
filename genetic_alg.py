@@ -25,7 +25,7 @@ class GA:
         self.num_of_hidden = num_of_hidden
         self.all_runs = []
 
-    def update_in_out(self, inputs, expected, test_in, test_expected):          #this is for updating the training and testing datasets for each epoc
+    def update_in_out(self, inputs, expected, test_in, test_expected):                  #this is for updating the training and testing datasets for each epoc
         self.input_values = numpy.array(inputs, dtype=float)
         self.expected = numpy.array(expected, dtype=float)
         self.test_inputs = numpy.array(test_in, dtype=float)

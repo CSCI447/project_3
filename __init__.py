@@ -7,7 +7,7 @@ import codecs
 import time
 
 
-neural_net = "GA"                           #"BP" or "GA" or "DE" or "ES";  This decides what network to run
+neural_net = "ES"                           #"BP" or "GA" or "DE" or "ES";  This decides what network to run
 inputArray = []                             #Generate initial input array
 expectedOutputArray = []                    #Generate expected output array
 cross_valid_fold = 8                        #used to determine how many folds in crossvalidation
@@ -25,6 +25,8 @@ with codecs.open('Data_old_fortest/2_dim_out.csv', 'r', encoding='utf-8') as out
 
 t0 = time.time()                                        #set timing for algorithms
 len_in_outs = len(inputArray)                           #helps with crossvalidation
+
+#############################EVOLUTIONALARY STRATEGY ALGORITHM#######################################
 
 if (neural_net == "ES"):                                #init code for Evolutionary Strategy
     hidden_nodes_amount = 20                            #starting varibale for ES
@@ -71,7 +73,7 @@ if (neural_net == "ES"):                                #init code for Evolution
             print("Test Sum Error = %f" % test_final)
             print("Generation %d" % j)
 
-            #############################DONE CONDITION#######################################
+#############################FINISH CONDITION#######################################
 
         best_chrome = ES.sort_all_runs()                                                            #all runs sorted to get best chromosome
         final_chrome = []
@@ -87,6 +89,7 @@ if (neural_net == "ES"):                                #init code for Evolution
         runtime = t1 - t0
         print("Runtime of %d Generations: %f" % (max_generations, runtime))
 
+#############################DIFFERENCIAL CONDITION#######################################
 
 elif (neural_net == "DE"):                              #for Differencial Evolution network
     hidden_nodes_amount = 20                            #DE start variable
@@ -134,7 +137,7 @@ elif (neural_net == "DE"):                              #for Differencial Evolut
             print("Test Sum Error = %f" % test_final)
             print("Generation %d" % j)
 
-            #############################DONE CONDITION#######################################
+#############################FINISH CONDITION#######################################
 
         best_chrome = DE.sort_all_runs()                                                #all runs sorted to get best chromosome
         final_chrome = []
@@ -150,6 +153,7 @@ elif (neural_net == "DE"):                              #for Differencial Evolut
         runtime = t1 - t0
         print("Runtime of %d Generations: %f" % (max_generations, runtime))
 
+#############################GENEATIC ALGORITHM#######################################
 
 elif (neural_net == "GA"):                                                      #for genetic algorithm, init variables
     hidden_nodes_amount = 20
@@ -205,7 +209,7 @@ elif (neural_net == "GA"):                                                      
 
             print("Generation %d" % j)
 
-#############################DONE CONDITION#######################################
+#############################FINISH CONDITION#######################################
 
         best_chrome = GA.sort_all_runs()
         final_chrome = []
@@ -220,6 +224,8 @@ elif (neural_net == "GA"):                                                      
         t1 = time.time()
         runtime = t1-t0
         print("Runtime of %d Generations: %f" % (max_generations, runtime))
+
+#############################BACKPROP ALGORITHM#######################################
 
 elif (neural_net == "BP"):              #Backprop alg, setup variable
     hidden_layer_amount = 0
