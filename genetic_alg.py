@@ -19,11 +19,12 @@ class GA:
         self.mutation_rate = mutation_rate
         self.crossover_rate = crossover_rate
         self.population = []
-        self.population_error = numpy.ones(shape=(pop_size, 1))
+        self.population_error = numpy.ones(shape=(pop_size, num_of_outs))
         self.threshold = 1
         self.activation_type = "s"
         self.num_of_hidden = num_of_hidden
         self.all_runs = []
+        self.num_of_outs = num_of_outs
 
     def update_in_out(self, inputs, expected, test_in, test_expected):                  #this is for updating the training and testing datasets for each epoc
         self.input_values = numpy.array(inputs, dtype=float)
@@ -53,7 +54,8 @@ class GA:
         self.population_error = numpy.ones(shape=(self.pop_size, 1))                    #used to reset the population error
 
     def calc_fit(self, individual, data_row, output):                                   #calculating fitness of the whole population.  This is unique to genetic algorithms
-        self.population_error[individual] += int(self.expected[data_row][0]) - output
+        for i in range(self.num_of_outs):
+            self.population_error[individual][i] += int(self.expected[data_row][0]) - output[i]
 
     def tournament(self):                                                               #used to select parents and breed
         participants_chrome = []                                                        #init variables

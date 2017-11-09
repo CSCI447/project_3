@@ -157,7 +157,7 @@ elif (neural_net == "DE"):                              #for Differencial Evolut
 
 elif (neural_net == "GA"):                                                      #for genetic algorithm, init variables
     hidden_nodes_amount = 20
-    output_nodes_amount = 1
+    output_nodes_amount = 2
     activation_type = "s"
     cross_valid_variable = 0
     max_generations = 1000
@@ -166,7 +166,7 @@ elif (neural_net == "GA"):                                                      
     num_tournament_victors = 5
     mutation_rate = .25
     crossover_rate = .75
-    output = numpy.ones(shape=(pop_size, 1))
+    output = numpy.ones(shape=(pop_size, output_nodes_amount))
     run_condition = "epocs"
     train_inputs = []
     train_outputs = []
@@ -231,7 +231,7 @@ elif (neural_net == "BP"):              #Backprop alg, setup variable
     hidden_layer_amount = 0
     hidden_nodes_amount = 20
     output_nodes_amount = 1
-    epocs = 1000
+    epocs = 1
     activation_type = "s"
     converge_test = "epoc"
     sum_error = 1

@@ -35,20 +35,24 @@ class ES:
 
     def feed_ES(self, row, individual):                                             #for passing datapoints through network with current weight valuse
         self.v_1 = self.input_values[row]
-        temp_node_val = self.population[individual][0].dot(self.v_1)
+        feed_w1 = numpy.array(self.population[individual][0])
+        feed_w2 = numpy.array(self.population[individual][1])
+        temp_node_val = feed_w1.dot(self.v_1)
         for i in range(len(temp_node_val)):
-            temp_node_val[i] = self.activation(temp_node_val[i])                    #weights * values with activation funciton
-        self.hidden_node_val = temp_node_val                                        #save to hidden nodes
-        self.output = self.population[individual][1].dot(self.hidden_node_val)      #process next weights between hidden and output layers
+            temp_node_val[i] = self.activation(temp_node_val[i])            #weights * values with activation funciton
+        self.hidden_node_val = temp_node_val                                #save to hidden nodes
+        self.output = feed_w2.dot(self.hidden_node_val)                     #process next weights between hidden and output layers
         return self.output
 
     def feed_testing_ES(self, row, individual):
-        self.v_1 = self.test_inputs[row]                                        #same as last fucntion but for testing data
-        temp_node_val = self.population[individual][0].dot(self.v_1)
+        self.v_1 = self.test_inputs[row]
+        test_w1 = numpy.array(self.population[individual][0])
+        test_w2 = numpy.array(self.population[individual][1])                       #same as last fucntion but for testing data
+        temp_node_val = test_w1.dot(self.v_1)
         for i in range(len(temp_node_val)):
             temp_node_val[i] = self.activation(temp_node_val[i])
         self.hidden_node_val = temp_node_val
-        self.output = self.population[individual][1].dot(self.hidden_node_val)
+        self.output = test_w2.dot(self.hidden_node_val)
         return self.output
 
     def feed_ES_children(self, row, child):                                     #same as functions above but for feeding children through the network
