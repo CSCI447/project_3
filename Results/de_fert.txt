@@ -1,0 +1,3007 @@
+/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5 /Users/newfrontier2/Desktop/School/CSCI447/Project3/project_3/__init__.py
+Error = -15020.395891
+Test Sum Error = 1892.938339
+Generation 0
+Error = -14124.556517
+Test Sum Error = 1829.323749
+Generation 1
+Error = -13595.700150
+Test Sum Error = 1716.794621
+Generation 2
+Error = -12755.714670
+Test Sum Error = 1621.073578
+Generation 3
+Error = -12030.824607
+Test Sum Error = 1609.531825
+Generation 4
+Error = -11948.934013
+Test Sum Error = 1479.103116
+Generation 5
+Error = -10953.033245
+Test Sum Error = 1421.290339
+Generation 6
+Error = -10512.116818
+Test Sum Error = 1383.967835
+Generation 7
+Error = -10250.991249
+Test Sum Error = 1334.527876
+Generation 8
+Error = -9858.447524
+Test Sum Error = 1388.976885
+Generation 9
+Error = -10271.101044
+Test Sum Error = 1320.178602
+Generation 10
+Error = -9747.111661
+Test Sum Error = 1289.830795
+Generation 11
+Error = -9512.340702
+Test Sum Error = 1195.705045
+Generation 12
+Error = -8804.218431
+Test Sum Error = 1128.071443
+Generation 13
+Error = -8299.199772
+Test Sum Error = 1086.007098
+Generation 14
+Error = -7981.732481
+Test Sum Error = 1039.279068
+Generation 15
+Error = -7632.050041
+Test Sum Error = 995.791204
+Generation 16
+Error = -7305.800998
+Test Sum Error = 914.773481
+Generation 17
+Error = -6706.508568
+Test Sum Error = 880.200531
+Generation 18
+Error = -6461.996818
+Test Sum Error = 896.469734
+Generation 19
+Error = -6571.046899
+Test Sum Error = 874.379376
+Generation 20
+Error = -6407.445628
+Test Sum Error = 849.637105
+Generation 21
+Error = -6222.803423
+Test Sum Error = 807.648176
+Generation 22
+Error = -5904.055988
+Test Sum Error = 765.690401
+Generation 23
+Error = -5594.927403
+Test Sum Error = 730.076391
+Generation 24
+Error = -5329.267477
+Test Sum Error = 689.921272
+Generation 25
+Error = -5025.196127
+Test Sum Error = 661.291024
+Generation 26
+Error = -4807.035764
+Test Sum Error = 637.678176
+Generation 27
+Error = -4635.184340
+Test Sum Error = 621.159086
+Generation 28
+Error = -4513.551611
+Test Sum Error = 583.293912
+Generation 29
+Error = -4218.134079
+Test Sum Error = 560.261732
+Generation 30
+Error = -4047.207585
+Test Sum Error = 550.345554
+Generation 31
+Error = -3973.914754
+Test Sum Error = 533.188824
+Generation 32
+Error = -3851.416478
+Test Sum Error = 516.102024
+Generation 33
+Error = -3721.670792
+Test Sum Error = 489.244528
+Generation 34
+Error = -3523.775616
+Test Sum Error = 475.479004
+Generation 35
+Error = -3419.871942
+Test Sum Error = 463.605891
+Generation 36
+Error = -3333.422083
+Test Sum Error = 446.825869
+Generation 37
+Error = -3207.421593
+Test Sum Error = 425.575803
+Generation 38
+Error = -3051.664186
+Test Sum Error = 427.718113
+Generation 39
+Error = -3069.626672
+Test Sum Error = 417.516010
+Generation 40
+Error = -2995.856297
+Test Sum Error = 393.963539
+Generation 41
+Error = -2822.470082
+Test Sum Error = 379.304243
+Generation 42
+Error = -2713.920616
+Test Sum Error = 371.294067
+Generation 43
+Error = -2653.010616
+Test Sum Error = 354.445110
+Generation 44
+Error = -2529.529286
+Test Sum Error = 351.327545
+Generation 45
+Error = -2506.382196
+Test Sum Error = 339.963326
+Generation 46
+Error = -2424.046372
+Test Sum Error = 328.364710
+Generation 47
+Error = -2338.407408
+Test Sum Error = 321.586980
+Generation 48
+Error = -2287.528125
+Test Sum Error = 314.661669
+Generation 49
+Error = -2238.539449
+Test Sum Error = 300.233099
+Generation 50
+Error = -2133.503636
+Test Sum Error = 289.202063
+Generation 51
+Error = -2052.157302
+Test Sum Error = 279.564102
+Generation 52
+Error = -1981.039435
+Test Sum Error = 270.824165
+Generation 53
+Error = -1916.260342
+Test Sum Error = 265.157660
+Generation 54
+Error = -1874.356239
+Test Sum Error = 261.516779
+Generation 55
+Error = -1850.208267
+Test Sum Error = 250.094925
+Generation 56
+Error = -1767.120211
+Test Sum Error = 241.320950
+Generation 57
+Error = -1703.715626
+Test Sum Error = 241.976661
+Generation 58
+Error = -1709.186504
+Test Sum Error = 233.752150
+Generation 59
+Error = -1649.866083
+Test Sum Error = 230.773438
+Generation 60
+Error = -1628.811089
+Test Sum Error = 229.138467
+Generation 61
+Error = -1617.021482
+Test Sum Error = 222.588305
+Generation 62
+Error = -1570.128110
+Test Sum Error = 217.053281
+Generation 63
+Error = -1529.536798
+Test Sum Error = 210.970994
+Generation 64
+Error = -1485.879681
+Test Sum Error = 209.990963
+Generation 65
+Error = -1477.567959
+Test Sum Error = 203.903540
+Generation 66
+Error = -1433.971664
+Test Sum Error = 199.988423
+Generation 67
+Error = -1405.283248
+Test Sum Error = 196.542148
+Generation 68
+Error = -1380.913531
+Test Sum Error = 194.392474
+Generation 69
+Error = -1365.342811
+Test Sum Error = 191.249054
+Generation 70
+Error = -1342.490569
+Test Sum Error = 189.775304
+Generation 71
+Error = -1331.432647
+Test Sum Error = 184.567216
+Generation 72
+Error = -1294.606472
+Test Sum Error = 182.938646
+Generation 73
+Error = -1282.635072
+Test Sum Error = 177.552296
+Generation 74
+Error = -1244.046658
+Test Sum Error = 174.324374
+Generation 75
+Error = -1220.676493
+Test Sum Error = 169.547278
+Generation 76
+Error = -1186.427449
+Test Sum Error = 168.144660
+Generation 77
+Error = -1176.305357
+Test Sum Error = 164.007143
+Generation 78
+Error = -1146.543049
+Test Sum Error = 161.912477
+Generation 79
+Error = -1131.009895
+Test Sum Error = 157.883633
+Generation 80
+Error = -1102.717896
+Test Sum Error = 156.800228
+Generation 81
+Error = -1095.083298
+Test Sum Error = 154.125447
+Generation 82
+Error = -1076.391109
+Test Sum Error = 151.942790
+Generation 83
+Error = -1060.763558
+Test Sum Error = 151.103157
+Generation 84
+Error = -1054.502331
+Test Sum Error = 147.622495
+Generation 85
+Error = -1030.130573
+Test Sum Error = 145.581497
+Generation 86
+Error = -1015.066720
+Test Sum Error = 142.476467
+Generation 87
+Error = -992.722056
+Test Sum Error = 140.125396
+Generation 88
+Error = -975.958693
+Test Sum Error = 136.934266
+Generation 89
+Error = -953.006196
+Test Sum Error = 134.366565
+Generation 90
+Error = -935.144029
+Test Sum Error = 132.825239
+Generation 91
+Error = -924.091542
+Test Sum Error = 130.392212
+Generation 92
+Error = -906.789614
+Test Sum Error = 129.381023
+Generation 93
+Error = -900.227043
+Test Sum Error = 125.668544
+Generation 94
+Error = -873.848495
+Test Sum Error = 123.640813
+Generation 95
+Error = -859.726690
+Test Sum Error = 122.785563
+Generation 96
+Error = -853.653207
+Test Sum Error = 120.566563
+Generation 97
+Error = -838.256777
+Test Sum Error = 117.630445
+Generation 98
+Error = -817.451286
+Test Sum Error = 116.544890
+Generation 99
+Error = -809.432395
+Test Sum Error = 115.610835
+Generation 100
+Error = -802.688673
+Test Sum Error = 114.333829
+Generation 101
+Error = -793.738760
+Test Sum Error = 113.995716
+Generation 102
+Error = -791.363545
+Test Sum Error = 111.592670
+Generation 103
+Error = -774.533981
+Test Sum Error = 109.271761
+Generation 104
+Error = -758.273883
+Test Sum Error = 110.464726
+Generation 105
+Error = -765.657460
+Test Sum Error = 108.453693
+Generation 106
+Error = -751.611658
+Test Sum Error = 106.767278
+Generation 107
+Error = -739.537861
+Test Sum Error = 105.556961
+Generation 108
+Error = -731.177894
+Test Sum Error = 103.935386
+Generation 109
+Error = -719.641901
+Test Sum Error = 102.317692
+Generation 110
+Error = -708.453640
+Test Sum Error = 102.200397
+Generation 111
+Error = -707.633269
+Test Sum Error = 100.083305
+Generation 112
+Error = -692.682991
+Test Sum Error = 98.086061
+Generation 113
+Error = -678.747356
+Test Sum Error = 97.262762
+Generation 114
+Error = -672.781874
+Test Sum Error = 94.867382
+Generation 115
+Error = -655.890608
+Test Sum Error = 93.603412
+Generation 116
+Error = -647.072774
+Test Sum Error = 92.396503
+Generation 117
+Error = -638.671923
+Test Sum Error = 90.903174
+Generation 118
+Error = -628.021328
+Test Sum Error = 89.724091
+Generation 119
+Error = -619.597185
+Test Sum Error = 89.232708
+Generation 120
+Error = -615.978773
+Test Sum Error = 87.301257
+Generation 121
+Error = -602.382108
+Test Sum Error = 86.582120
+Generation 122
+Error = -597.356044
+Test Sum Error = 85.332217
+Generation 123
+Error = -588.716176
+Test Sum Error = 83.753281
+Generation 124
+Error = -577.696331
+Test Sum Error = 82.702468
+Generation 125
+Error = -570.192102
+Test Sum Error = 81.878125
+Generation 126
+Error = -564.392686
+Test Sum Error = 81.287551
+Generation 127
+Error = -560.260469
+Test Sum Error = 80.523085
+Generation 128
+Error = -554.844604
+Test Sum Error = 79.639857
+Generation 129
+Error = -548.716969
+Test Sum Error = 79.205332
+Generation 130
+Error = -545.571505
+Test Sum Error = 78.491777
+Generation 131
+Error = -540.361819
+Test Sum Error = 77.236298
+Generation 132
+Error = -531.491312
+Test Sum Error = 76.636897
+Generation 133
+Error = -527.130317
+Test Sum Error = 75.459143
+Generation 134
+Error = -519.023372
+Test Sum Error = 74.017412
+Generation 135
+Error = -508.950655
+Test Sum Error = 72.574114
+Generation 136
+Error = -498.872179
+Test Sum Error = 72.039804
+Generation 137
+Error = -495.023893
+Test Sum Error = 70.663704
+Generation 138
+Error = -485.493323
+Test Sum Error = 69.937182
+Generation 139
+Error = -480.340031
+Test Sum Error = 69.395253
+Generation 140
+Error = -476.543045
+Test Sum Error = 68.860477
+Generation 141
+Error = -472.784608
+Test Sum Error = 68.317192
+Generation 142
+Error = -469.133006
+Test Sum Error = 67.414556
+Generation 143
+Error = -462.921231
+Test Sum Error = 67.246229
+Generation 144
+Error = -461.716675
+Test Sum Error = 65.894488
+Generation 145
+Error = -452.255624
+Test Sum Error = 65.436530
+Generation 146
+Error = -448.720649
+Test Sum Error = 65.328245
+Generation 147
+Error = -447.953547
+Test Sum Error = 64.901428
+Generation 148
+Error = -445.004931
+Test Sum Error = 64.149404
+Generation 149
+Error = -439.711236
+Test Sum Error = 63.517014
+Generation 150
+Error = -435.356025
+Test Sum Error = 62.297982
+Generation 151
+Error = -426.887934
+Test Sum Error = 61.832235
+Generation 152
+Error = -423.672691
+Test Sum Error = 61.065810
+Generation 153
+Error = -418.432376
+Test Sum Error = 60.340718
+Generation 154
+Error = -413.363279
+Test Sum Error = 59.677414
+Generation 155
+Error = -408.745022
+Test Sum Error = 59.272331
+Generation 156
+Error = -405.955382
+Test Sum Error = 58.948174
+Generation 157
+Error = -403.568049
+Test Sum Error = 58.252589
+Generation 158
+Error = -398.862815
+Test Sum Error = 57.059392
+Generation 159
+Error = -390.577625
+Test Sum Error = 56.175146
+Generation 160
+Error = -384.395203
+Test Sum Error = 55.284698
+Generation 161
+Error = -378.186037
+Test Sum Error = 55.347219
+Generation 162
+Error = -378.580637
+Test Sum Error = 54.884960
+Generation 163
+Error = -375.376634
+Test Sum Error = 54.766096
+Generation 164
+Error = -374.473763
+Test Sum Error = 54.643697
+Generation 165
+Error = -373.501515
+Test Sum Error = 54.435122
+Generation 166
+Error = -372.010804
+Test Sum Error = 53.491412
+Generation 167
+Error = -365.414642
+Test Sum Error = 52.756146
+Generation 168
+Error = -360.391653
+Test Sum Error = 52.534553
+Generation 169
+Error = -358.897582
+Test Sum Error = 52.224993
+Generation 170
+Error = -356.738535
+Test Sum Error = 51.787459
+Generation 171
+Error = -353.643813
+Test Sum Error = 51.898815
+Generation 172
+Error = -354.334584
+Test Sum Error = 51.062901
+Generation 173
+Error = -348.651084
+Test Sum Error = 50.437708
+Generation 174
+Error = -344.350817
+Test Sum Error = 49.610481
+Generation 175
+Error = -338.630778
+Test Sum Error = 49.095999
+Generation 176
+Error = -334.974372
+Test Sum Error = 48.793171
+Generation 177
+Error = -332.893655
+Test Sum Error = 48.251842
+Generation 178
+Error = -329.212471
+Test Sum Error = 48.379642
+Generation 179
+Error = -330.074958
+Test Sum Error = 47.797488
+Generation 180
+Error = -326.098080
+Test Sum Error = 47.758737
+Generation 181
+Error = -325.700304
+Test Sum Error = 47.445265
+Generation 182
+Error = -323.493120
+Test Sum Error = 47.205407
+Generation 183
+Error = -321.775493
+Test Sum Error = 46.267479
+Generation 184
+Error = -315.283263
+Test Sum Error = 45.798563
+Generation 185
+Error = -312.031182
+Test Sum Error = 45.528316
+Generation 186
+Error = -310.110489
+Test Sum Error = 45.089527
+Generation 187
+Error = -307.130640
+Test Sum Error = 44.572209
+Generation 188
+Error = -303.538238
+Test Sum Error = 43.924916
+Generation 189
+Error = -299.161560
+Test Sum Error = 43.359862
+Generation 190
+Error = -295.337387
+Test Sum Error = 43.725301
+Generation 191
+Error = -297.690423
+Test Sum Error = 43.263344
+Generation 192
+Error = -294.524485
+Test Sum Error = 43.594691
+Generation 193
+Error = -296.736469
+Test Sum Error = 43.212637
+Generation 194
+Error = -294.048013
+Test Sum Error = 42.993628
+Generation 195
+Error = -292.515878
+Test Sum Error = 42.826528
+Generation 196
+Error = -291.370301
+Test Sum Error = 42.423114
+Generation 197
+Error = -288.564877
+Test Sum Error = 42.237332
+Generation 198
+Error = -287.261259
+Test Sum Error = 41.679513
+Generation 199
+Error = -283.460971
+Test Sum Error = 41.461812
+Generation 200
+Error = -281.958886
+Test Sum Error = 40.933519
+Generation 201
+Error = -278.338256
+Test Sum Error = 40.778257
+Generation 202
+Error = -277.247840
+Test Sum Error = 40.491342
+Generation 203
+Error = -275.277553
+Test Sum Error = 40.273281
+Generation 204
+Error = -273.776757
+Test Sum Error = 40.130545
+Generation 205
+Error = -272.765706
+Test Sum Error = 39.915988
+Generation 206
+Error = -271.291579
+Test Sum Error = 39.255020
+Generation 207
+Error = -266.774973
+Test Sum Error = 38.516011
+Generation 208
+Error = -261.672103
+Test Sum Error = 38.073818
+Generation 209
+Error = -258.614984
+Test Sum Error = 38.057170
+Generation 210
+Error = -258.435670
+Test Sum Error = 37.600557
+Generation 211
+Error = -255.275643
+Test Sum Error = 37.480736
+Generation 212
+Error = -254.392775
+Test Sum Error = 37.254008
+Generation 213
+Error = -252.819047
+Test Sum Error = 37.085778
+Generation 214
+Error = -251.711733
+Test Sum Error = 36.789330
+Generation 215
+Error = -249.647087
+Test Sum Error = 36.349214
+Generation 216
+Error = -246.620513
+Test Sum Error = 36.234117
+Generation 217
+Error = -245.739553
+Test Sum Error = 36.069532
+Generation 218
+Error = -244.617091
+Test Sum Error = 35.641867
+Generation 219
+Error = -241.657582
+Test Sum Error = 35.437402
+Generation 220
+Error = -240.232250
+Test Sum Error = 35.030905
+Generation 221
+Error = -237.423746
+Test Sum Error = 34.686585
+Generation 222
+Error = -235.054506
+Test Sum Error = 34.339589
+Generation 223
+Error = -232.696032
+Test Sum Error = 34.254573
+Generation 224
+Error = -232.093595
+Test Sum Error = 33.645761
+Generation 225
+Error = -227.907460
+Test Sum Error = 33.556412
+Generation 226
+Error = -227.292298
+Test Sum Error = 33.360317
+Generation 227
+Error = -225.957182
+Test Sum Error = 32.880500
+Generation 228
+Error = -222.683745
+Test Sum Error = 32.536685
+Generation 229
+Error = -220.323333
+Test Sum Error = 32.319484
+Generation 230
+Error = -218.821377
+Test Sum Error = 32.098899
+Generation 231
+Error = -217.296683
+Test Sum Error = 31.755377
+Generation 232
+Error = -214.926861
+Test Sum Error = 31.278733
+Generation 233
+Error = -211.651404
+Test Sum Error = 30.989441
+Generation 234
+Error = -209.672708
+Test Sum Error = 30.606006
+Generation 235
+Error = -207.062852
+Test Sum Error = 30.409395
+Generation 236
+Error = -205.701642
+Test Sum Error = 30.225394
+Generation 237
+Error = -204.399159
+Test Sum Error = 30.034106
+Generation 238
+Error = -203.065500
+Test Sum Error = 29.809364
+Generation 239
+Error = -201.447740
+Test Sum Error = 29.405792
+Generation 240
+Error = -198.713503
+Test Sum Error = 28.982183
+Generation 241
+Error = -195.832123
+Test Sum Error = 28.668411
+Generation 242
+Error = -193.689498
+Test Sum Error = 28.394984
+Generation 243
+Error = -191.828402
+Test Sum Error = 28.198414
+Generation 244
+Error = -190.456093
+Test Sum Error = 28.332684
+Generation 245
+Error = -191.351207
+Test Sum Error = 28.250888
+Generation 246
+Error = -190.765431
+Test Sum Error = 27.816134
+Generation 247
+Error = -187.792580
+Test Sum Error = 27.621408
+Generation 248
+Error = -186.457720
+Test Sum Error = 27.526735
+Generation 249
+Error = -185.782922
+Test Sum Error = 27.554792
+Generation 250
+Error = -185.999703
+Test Sum Error = 27.273886
+Generation 251
+Error = -184.054223
+Test Sum Error = 27.204053
+Generation 252
+Error = -183.580708
+Test Sum Error = 27.109269
+Generation 253
+Error = -182.915769
+Test Sum Error = 26.809345
+Generation 254
+Error = -180.882192
+Test Sum Error = 26.548899
+Generation 255
+Error = -179.091505
+Test Sum Error = 26.329538
+Generation 256
+Error = -177.599433
+Test Sum Error = 25.959937
+Generation 257
+Error = -175.080580
+Test Sum Error = 25.785353
+Generation 258
+Error = -173.907969
+Test Sum Error = 25.614946
+Generation 259
+Error = -172.717202
+Test Sum Error = 25.541342
+Generation 260
+Error = -172.179765
+Test Sum Error = 25.513868
+Generation 261
+Error = -171.984309
+Test Sum Error = 25.174571
+Generation 262
+Error = -169.683671
+Test Sum Error = 24.844067
+Generation 263
+Error = -167.437685
+Test Sum Error = 24.696097
+Generation 264
+Error = -166.421987
+Test Sum Error = 24.617974
+Generation 265
+Error = -165.880609
+Test Sum Error = 24.603941
+Generation 266
+Error = -165.785765
+Test Sum Error = 24.381836
+Generation 267
+Error = -164.248948
+Test Sum Error = 24.199051
+Generation 268
+Error = -163.015807
+Test Sum Error = 23.863799
+Generation 269
+Error = -160.751439
+Test Sum Error = 23.466160
+Generation 270
+Error = -158.031813
+Test Sum Error = 23.339728
+Generation 271
+Error = -157.150203
+Test Sum Error = 23.082578
+Generation 272
+Error = -155.409097
+Test Sum Error = 22.891311
+Generation 273
+Error = -154.091204
+Test Sum Error = 22.629474
+Generation 274
+Error = -152.305498
+Test Sum Error = 22.546195
+Generation 275
+Error = -151.726962
+Test Sum Error = 22.213127
+Generation 276
+Error = -149.469854
+Test Sum Error = 22.017455
+Generation 277
+Error = -148.142103
+Test Sum Error = 21.678590
+Generation 278
+Error = -145.840843
+Test Sum Error = 21.384076
+Generation 279
+Error = -143.826270
+Test Sum Error = 21.300708
+Generation 280
+Error = -143.238586
+Test Sum Error = 21.196059
+Generation 281
+Error = -142.518195
+Test Sum Error = 21.010216
+Generation 282
+Error = -141.235974
+Test Sum Error = 21.400856
+Generation 283
+Error = -143.852681
+Test Sum Error = 21.298182
+Generation 284
+Error = -143.227665
+Test Sum Error = 20.986158
+Generation 285
+Error = -141.099459
+Test Sum Error = 21.093575
+Generation 286
+Error = -141.714349
+Test Sum Error = 20.872990
+Generation 287
+Error = -140.197241
+Test Sum Error = 20.852116
+Generation 288
+Error = -140.077898
+Test Sum Error = 20.612788
+Generation 289
+Error = -138.494564
+Test Sum Error = 20.322763
+Generation 290
+Error = -136.519661
+Test Sum Error = 20.331212
+Generation 291
+Error = -136.496922
+Test Sum Error = 20.027924
+Generation 292
+Error = -134.423504
+Test Sum Error = 19.982826
+Generation 293
+Error = -134.164689
+Test Sum Error = 19.924335
+Generation 294
+Error = -133.751841
+Test Sum Error = 19.848223
+Generation 295
+Error = -133.229789
+Test Sum Error = 19.757020
+Generation 296
+Error = -132.601187
+Test Sum Error = 19.481278
+Generation 297
+Error = -130.744807
+Test Sum Error = 19.446829
+Generation 298
+Error = -130.499007
+Test Sum Error = 19.427522
+Generation 299
+Error = -130.358050
+Test Sum Error = 19.212895
+Generation 300
+Error = -128.883248
+Test Sum Error = 19.100038
+Generation 301
+Error = -128.129424
+Test Sum Error = 18.971773
+Generation 302
+Error = -127.242565
+Test Sum Error = 18.699194
+Generation 303
+Error = -125.409310
+Test Sum Error = 18.592407
+Generation 304
+Error = -124.678590
+Test Sum Error = 18.328921
+Generation 305
+Error = -122.894346
+Test Sum Error = 18.306309
+Generation 306
+Error = -122.740579
+Test Sum Error = 18.200453
+Generation 307
+Error = -122.023588
+Test Sum Error = 18.109604
+Generation 308
+Error = -121.405626
+Test Sum Error = 17.941055
+Generation 309
+Error = -120.273185
+Test Sum Error = 17.740768
+Generation 310
+Error = -118.915130
+Test Sum Error = 17.616578
+Generation 311
+Error = -118.054088
+Test Sum Error = 17.455333
+Generation 312
+Error = -116.948909
+Test Sum Error = 17.340943
+Generation 313
+Error = -116.158029
+Test Sum Error = 17.195096
+Generation 314
+Error = -115.163031
+Test Sum Error = 17.061191
+Generation 315
+Error = -114.238629
+Test Sum Error = 16.861815
+Generation 316
+Error = -112.901924
+Test Sum Error = 16.756053
+Generation 317
+Error = -112.181684
+Test Sum Error = 16.555465
+Generation 318
+Error = -110.830501
+Test Sum Error = 16.361627
+Generation 319
+Error = -109.523827
+Test Sum Error = 16.279354
+Generation 320
+Error = -108.952205
+Test Sum Error = 16.073238
+Generation 321
+Error = -107.548600
+Test Sum Error = 16.008549
+Generation 322
+Error = -107.091513
+Test Sum Error = 15.795700
+Generation 323
+Error = -105.649905
+Test Sum Error = 15.728206
+Generation 324
+Error = -105.178732
+Test Sum Error = 15.592410
+Generation 325
+Error = -104.258689
+Test Sum Error = 15.401816
+Generation 326
+Error = -102.969604
+Test Sum Error = 15.299337
+Generation 327
+Error = -102.288375
+Test Sum Error = 15.249156
+Generation 328
+Error = -101.909323
+Test Sum Error = 15.092227
+Generation 329
+Error = -100.860474
+Test Sum Error = 14.942854
+Generation 330
+Error = -99.850668
+Test Sum Error = 14.854025
+Generation 331
+Error = -99.242080
+Test Sum Error = 14.817061
+Generation 332
+Error = -98.989409
+Test Sum Error = 14.991167
+Generation 333
+Error = -100.145891
+Test Sum Error = 14.983216
+Generation 334
+Error = -100.088910
+Test Sum Error = 14.908102
+Generation 335
+Error = -99.567114
+Test Sum Error = 14.738265
+Generation 336
+Error = -98.435941
+Test Sum Error = 14.588977
+Generation 337
+Error = -97.414466
+Test Sum Error = 14.540116
+Generation 338
+Error = -97.085339
+Test Sum Error = 14.397636
+Generation 339
+Error = -96.109923
+Test Sum Error = 14.250862
+Generation 340
+Error = -95.121039
+Test Sum Error = 14.233093
+Generation 341
+Error = -94.999982
+Test Sum Error = 14.124437
+Generation 342
+Error = -94.260174
+Test Sum Error = 14.079206
+Generation 343
+Error = -93.940359
+Test Sum Error = 13.984603
+Generation 344
+Error = -93.294212
+Test Sum Error = 13.822216
+Generation 345
+Error = -92.198539
+Test Sum Error = 13.654365
+Generation 346
+Error = -91.068121
+Test Sum Error = 13.608519
+Generation 347
+Error = -90.754600
+Test Sum Error = 13.427930
+Generation 348
+Error = -89.531838
+Test Sum Error = 13.297155
+Generation 349
+Error = -88.647740
+Test Sum Error = 13.281574
+Generation 350
+Error = -88.532900
+Test Sum Error = 13.117183
+Generation 351
+Error = -87.426053
+Test Sum Error = 13.100399
+Generation 352
+Error = -87.308918
+Test Sum Error = 13.016933
+Generation 353
+Error = -86.745265
+Test Sum Error = 12.849741
+Generation 354
+Error = -85.612002
+Test Sum Error = 12.718406
+Generation 355
+Error = -84.717166
+Test Sum Error = 12.606337
+Generation 356
+Error = -83.955936
+Test Sum Error = 12.488602
+Generation 357
+Error = -83.159849
+Test Sum Error = 12.355814
+Generation 358
+Error = -82.259576
+Test Sum Error = 12.322272
+Generation 359
+Error = -82.025250
+Test Sum Error = 12.251332
+Generation 360
+Error = -81.538220
+Test Sum Error = 12.215056
+Generation 361
+Error = -81.294560
+Test Sum Error = 12.168213
+Generation 362
+Error = -80.978917
+Test Sum Error = 12.111766
+Generation 363
+Error = -80.588471
+Test Sum Error = 11.937206
+Generation 364
+Error = -79.402852
+Test Sum Error = 11.793419
+Generation 365
+Error = -78.432089
+Test Sum Error = 11.623980
+Generation 366
+Error = -77.287751
+Test Sum Error = 11.538289
+Generation 367
+Error = -76.686754
+Test Sum Error = 11.665849
+Generation 368
+Error = -77.531253
+Test Sum Error = 11.518290
+Generation 369
+Error = -76.533288
+Test Sum Error = 11.459102
+Generation 370
+Error = -76.124383
+Test Sum Error = 11.429387
+Generation 371
+Error = -75.931955
+Test Sum Error = 11.320748
+Generation 372
+Error = -75.194981
+Test Sum Error = 11.280945
+Generation 373
+Error = -74.930869
+Test Sum Error = 11.139652
+Generation 374
+Error = -73.982752
+Test Sum Error = 11.111996
+Generation 375
+Error = -73.783610
+Test Sum Error = 10.979076
+Generation 376
+Error = -72.893317
+Test Sum Error = 10.880966
+Generation 377
+Error = -72.231982
+Test Sum Error = 10.773128
+Generation 378
+Error = -71.505546
+Test Sum Error = 10.665571
+Generation 379
+Error = -70.783211
+Test Sum Error = 10.933701
+Generation 380
+Error = -72.577067
+Test Sum Error = 10.886905
+Generation 381
+Error = -72.257255
+Test Sum Error = 10.856662
+Generation 382
+Error = -72.049299
+Test Sum Error = 10.712274
+Generation 383
+Error = -71.078457
+Test Sum Error = 10.623068
+Generation 384
+Error = -70.474802
+Test Sum Error = 10.552792
+Generation 385
+Error = -70.003502
+Test Sum Error = 10.501585
+Generation 386
+Error = -69.649698
+Test Sum Error = 10.404803
+Generation 387
+Error = -68.989596
+Test Sum Error = 10.292526
+Generation 388
+Error = -68.228610
+Test Sum Error = 10.266550
+Generation 389
+Error = -68.045670
+Test Sum Error = 10.220114
+Generation 390
+Error = -67.731869
+Test Sum Error = 10.096936
+Generation 391
+Error = -66.900169
+Test Sum Error = 10.076507
+Generation 392
+Error = -66.758265
+Test Sum Error = 10.009370
+Generation 393
+Error = -66.304856
+Test Sum Error = 9.913348
+Generation 394
+Error = -65.651132
+Test Sum Error = 9.882575
+Generation 395
+Error = -65.449337
+Test Sum Error = 9.838471
+Generation 396
+Error = -65.152669
+Test Sum Error = 9.770573
+Generation 397
+Error = -64.690561
+Test Sum Error = 9.689268
+Generation 398
+Error = -64.143964
+Test Sum Error = 9.593703
+Generation 399
+Error = -63.499389
+Test Sum Error = 9.542991
+Generation 400
+Error = -63.152570
+Test Sum Error = 9.402827
+Generation 401
+Error = -62.203338
+Test Sum Error = 9.413466
+Generation 402
+Error = -62.258117
+Test Sum Error = 9.328708
+Generation 403
+Error = -61.680582
+Test Sum Error = 9.281631
+Generation 404
+Error = -61.370605
+Test Sum Error = 9.208348
+Generation 405
+Error = -60.878842
+Test Sum Error = 9.136129
+Generation 406
+Error = -60.388367
+Test Sum Error = 9.107074
+Generation 407
+Error = -60.194308
+Test Sum Error = 9.070456
+Generation 408
+Error = -59.947142
+Test Sum Error = 8.938175
+Generation 409
+Error = -59.052653
+Test Sum Error = 8.868392
+Generation 410
+Error = -58.581884
+Test Sum Error = 8.964419
+Generation 411
+Error = -59.190172
+Test Sum Error = 8.849927
+Generation 412
+Error = -58.419762
+Test Sum Error = 8.756991
+Generation 413
+Error = -57.812215
+Test Sum Error = 8.697973
+Generation 414
+Error = -57.412626
+Test Sum Error = 8.636825
+Generation 415
+Error = -57.006551
+Test Sum Error = 8.628871
+Generation 416
+Error = -56.953002
+Test Sum Error = 8.531202
+Generation 417
+Error = -56.298939
+Test Sum Error = 8.425265
+Generation 418
+Error = -55.586253
+Test Sum Error = 8.324466
+Generation 419
+Error = -54.907799
+Test Sum Error = 8.243104
+Generation 420
+Error = -54.362805
+Test Sum Error = 8.239193
+Generation 421
+Error = -54.333766
+Test Sum Error = 8.211590
+Generation 422
+Error = -54.144036
+Test Sum Error = 8.139845
+Generation 423
+Error = -53.655194
+Test Sum Error = 8.088617
+Generation 424
+Error = -53.304894
+Test Sum Error = 8.166778
+Generation 425
+Error = -53.814073
+Test Sum Error = 8.077697
+Generation 426
+Error = -53.217297
+Test Sum Error = 7.976979
+Generation 427
+Error = -52.543722
+Test Sum Error = 7.874417
+Generation 428
+Error = -51.856899
+Test Sum Error = 7.793305
+Generation 429
+Error = -51.310015
+Test Sum Error = 7.804594
+Generation 430
+Error = -51.363890
+Test Sum Error = 7.727503
+Generation 431
+Error = -50.847687
+Test Sum Error = 7.632454
+Generation 432
+Error = -50.205176
+Test Sum Error = 7.534690
+Generation 433
+Error = -49.544369
+Test Sum Error = 7.606532
+Generation 434
+Error = -50.018815
+Test Sum Error = 7.508479
+Generation 435
+Error = -49.358059
+Test Sum Error = 7.441319
+Generation 436
+Error = -48.902110
+Test Sum Error = 7.435467
+Generation 437
+Error = -48.863061
+Test Sum Error = 7.416745
+Generation 438
+Error = -48.745459
+Test Sum Error = 7.346359
+Generation 439
+Error = -48.272222
+Test Sum Error = 7.269168
+Generation 440
+Error = -47.754694
+Test Sum Error = 7.205856
+Generation 441
+Error = -47.330533
+Test Sum Error = 7.261944
+Generation 442
+Error = -47.683150
+Test Sum Error = 7.264280
+Generation 443
+Error = -47.701634
+Test Sum Error = 7.173984
+Generation 444
+Error = -47.091352
+Test Sum Error = 7.154766
+Generation 445
+Error = -46.970566
+Test Sum Error = 7.092234
+Generation 446
+Error = -46.545284
+Test Sum Error = 7.027237
+Generation 447
+Error = -46.103788
+Test Sum Error = 7.044936
+Generation 448
+Error = -46.216620
+Test Sum Error = 7.038547
+Generation 449
+Error = -46.175661
+Test Sum Error = 7.036786
+Generation 450
+Error = -46.163736
+Test Sum Error = 7.025366
+Generation 451
+Error = -46.096869
+Test Sum Error = 6.951639
+Generation 452
+Error = -45.602584
+Test Sum Error = 6.875635
+Generation 453
+Error = -45.091831
+Test Sum Error = 6.860963
+Generation 454
+Error = -44.991186
+Test Sum Error = 6.783386
+Generation 455
+Error = -44.465832
+Test Sum Error = 6.754702
+Generation 456
+Error = -44.267704
+Test Sum Error = 6.687568
+Generation 457
+Error = -43.815178
+Test Sum Error = 6.608143
+Generation 458
+Error = -43.282997
+Test Sum Error = 6.585462
+Generation 459
+Error = -43.129982
+Test Sum Error = 6.520340
+Generation 460
+Error = -42.689620
+Test Sum Error = 6.502952
+Generation 461
+Error = -42.572177
+Test Sum Error = 6.498971
+Generation 462
+Error = -42.546348
+Test Sum Error = 6.432306
+Generation 463
+Error = -42.097376
+Test Sum Error = 6.377863
+Generation 464
+Error = -41.730587
+Test Sum Error = 6.367810
+Generation 465
+Error = -41.663177
+Test Sum Error = 6.362349
+Generation 466
+Error = -41.626036
+Test Sum Error = 6.279430
+Generation 467
+Error = -41.070318
+Test Sum Error = 6.196689
+Generation 468
+Error = -40.511923
+Test Sum Error = 6.177806
+Generation 469
+Error = -40.378047
+Test Sum Error = 6.164141
+Generation 470
+Error = -40.280950
+Test Sum Error = 6.084808
+Generation 471
+Error = -39.748470
+Test Sum Error = 6.066951
+Generation 472
+Error = -39.626402
+Test Sum Error = 6.036948
+Generation 473
+Error = -39.418731
+Test Sum Error = 6.012426
+Generation 474
+Error = -39.253108
+Test Sum Error = 5.948656
+Generation 475
+Error = -38.822077
+Test Sum Error = 5.942874
+Generation 476
+Error = -38.780237
+Test Sum Error = 5.924879
+Generation 477
+Error = -38.658421
+Test Sum Error = 5.886098
+Generation 478
+Error = -38.395667
+Test Sum Error = 5.831809
+Generation 479
+Error = -38.027746
+Test Sum Error = 5.820569
+Generation 480
+Error = -37.951869
+Test Sum Error = 5.751119
+Generation 481
+Error = -37.488980
+Test Sum Error = 5.751581
+Generation 482
+Error = -37.493928
+Test Sum Error = 5.725979
+Generation 483
+Error = -37.319858
+Test Sum Error = 5.681672
+Generation 484
+Error = -37.020958
+Test Sum Error = 5.641677
+Generation 485
+Error = -36.753133
+Test Sum Error = 5.605711
+Generation 486
+Error = -36.509491
+Test Sum Error = 5.597332
+Generation 487
+Error = -36.453457
+Test Sum Error = 5.525220
+Generation 488
+Error = -35.968620
+Test Sum Error = 5.517731
+Generation 489
+Error = -35.914269
+Test Sum Error = 5.455589
+Generation 490
+Error = -35.492602
+Test Sum Error = 5.405604
+Generation 491
+Error = -35.154653
+Test Sum Error = 5.380669
+Generation 492
+Error = -34.987514
+Test Sum Error = 5.328762
+Generation 493
+Error = -34.639881
+Test Sum Error = 5.294732
+Generation 494
+Error = -34.410317
+Test Sum Error = 5.291695
+Generation 495
+Error = -34.392380
+Test Sum Error = 5.263566
+Generation 496
+Error = -34.201819
+Test Sum Error = 5.247226
+Generation 497
+Error = -34.088429
+Test Sum Error = 5.225777
+Generation 498
+Error = -33.942955
+Test Sum Error = 5.175240
+Generation 499
+Error = -33.602866
+Test Sum Error = 5.145273
+Generation 500
+Error = -33.400521
+Test Sum Error = 5.103602
+Generation 501
+Error = -33.119140
+Test Sum Error = 5.098799
+Generation 502
+Error = -33.083546
+Test Sum Error = 5.045529
+Generation 503
+Error = -32.723017
+Test Sum Error = 5.033678
+Generation 504
+Error = -32.642030
+Test Sum Error = 5.006397
+Generation 505
+Error = -32.459240
+Test Sum Error = 4.972773
+Generation 506
+Error = -32.234013
+Test Sum Error = 4.942705
+Generation 507
+Error = -32.032933
+Test Sum Error = 4.916745
+Generation 508
+Error = -31.856236
+Test Sum Error = 4.888796
+Generation 509
+Error = -31.669170
+Test Sum Error = 4.830767
+Generation 510
+Error = -31.280473
+Test Sum Error = 4.779544
+Generation 511
+Error = -30.936774
+Test Sum Error = 4.739658
+Generation 512
+Error = -30.669697
+Test Sum Error = 4.724484
+Generation 513
+Error = -30.565644
+Test Sum Error = 4.710088
+Generation 514
+Error = -30.467814
+Test Sum Error = 4.674755
+Generation 515
+Error = -30.235349
+Test Sum Error = 4.655215
+Generation 516
+Error = -30.102558
+Test Sum Error = 4.596136
+Generation 517
+Error = -29.706846
+Test Sum Error = 4.549572
+Generation 518
+Error = -29.394817
+Test Sum Error = 4.634078
+Generation 519
+Error = -29.953106
+Test Sum Error = 4.583148
+Generation 520
+Error = -29.611895
+Test Sum Error = 4.549559
+Generation 521
+Error = -29.386438
+Test Sum Error = 4.510203
+Generation 522
+Error = -29.119957
+Test Sum Error = 4.476086
+Generation 523
+Error = -28.888099
+Test Sum Error = 4.481248
+Generation 524
+Error = -28.918199
+Test Sum Error = 4.436336
+Generation 525
+Error = -28.616643
+Test Sum Error = 4.406910
+Generation 526
+Error = -28.425428
+Test Sum Error = 4.379039
+Generation 527
+Error = -28.235728
+Test Sum Error = 4.342315
+Generation 528
+Error = -27.989249
+Test Sum Error = 4.345158
+Generation 529
+Error = -28.002269
+Test Sum Error = 4.311728
+Generation 530
+Error = -27.777334
+Test Sum Error = 4.308445
+Generation 531
+Error = -27.754312
+Test Sum Error = 4.268503
+Generation 532
+Error = -27.485108
+Test Sum Error = 4.266544
+Generation 533
+Error = -27.473713
+Test Sum Error = 4.258991
+Generation 534
+Error = -27.421892
+Test Sum Error = 4.246514
+Generation 535
+Error = -27.336941
+Test Sum Error = 4.246261
+Generation 536
+Error = -27.334904
+Test Sum Error = 4.238686
+Generation 537
+Error = -27.282113
+Test Sum Error = 4.225621
+Generation 538
+Error = -27.194301
+Test Sum Error = 4.200388
+Generation 539
+Error = -27.024478
+Test Sum Error = 4.176664
+Generation 540
+Error = -26.863396
+Test Sum Error = 4.140110
+Generation 541
+Error = -26.617332
+Test Sum Error = 4.141691
+Generation 542
+Error = -26.629221
+Test Sum Error = 4.107030
+Generation 543
+Error = -26.397564
+Test Sum Error = 4.059006
+Generation 544
+Error = -26.074369
+Test Sum Error = 4.016957
+Generation 545
+Error = -25.791395
+Test Sum Error = 3.970667
+Generation 546
+Error = -25.478812
+Test Sum Error = 3.995892
+Generation 547
+Error = -25.642176
+Test Sum Error = 3.947209
+Generation 548
+Error = -25.314475
+Test Sum Error = 3.940030
+Generation 549
+Error = -25.266492
+Test Sum Error = 3.901966
+Generation 550
+Error = -25.009606
+Test Sum Error = 3.888585
+Generation 551
+Error = -24.919105
+Test Sum Error = 3.845541
+Generation 552
+Error = -24.631304
+Test Sum Error = 3.827313
+Generation 553
+Error = -24.509402
+Test Sum Error = 3.827916
+Generation 554
+Error = -24.509783
+Test Sum Error = 3.824617
+Generation 555
+Error = -24.486612
+Test Sum Error = 3.812649
+Generation 556
+Error = -24.409690
+Test Sum Error = 3.794762
+Generation 557
+Error = -24.288708
+Test Sum Error = 3.753421
+Generation 558
+Error = -24.011709
+Test Sum Error = 3.747124
+Generation 559
+Error = -23.970723
+Test Sum Error = 3.701443
+Generation 560
+Error = -23.664446
+Test Sum Error = 3.684077
+Generation 561
+Error = -23.545756
+Test Sum Error = 3.656779
+Generation 562
+Error = -23.361355
+Test Sum Error = 3.633899
+Generation 563
+Error = -23.206152
+Test Sum Error = 3.607980
+Generation 564
+Error = -23.030609
+Test Sum Error = 3.567262
+Generation 565
+Error = -22.761998
+Test Sum Error = 3.562254
+Generation 566
+Error = -22.726464
+Test Sum Error = 3.516963
+Generation 567
+Error = -22.422000
+Test Sum Error = 3.477438
+Generation 568
+Error = -22.158555
+Test Sum Error = 3.541395
+Generation 569
+Error = -22.580767
+Test Sum Error = 3.501830
+Generation 570
+Error = -22.315858
+Test Sum Error = 3.464488
+Generation 571
+Error = -22.063766
+Test Sum Error = 3.426397
+Generation 572
+Error = -21.809332
+Test Sum Error = 3.412476
+Generation 573
+Error = -21.713813
+Test Sum Error = 3.407992
+Generation 574
+Error = -21.681416
+Test Sum Error = 3.389538
+Generation 575
+Error = -21.557170
+Test Sum Error = 3.371138
+Generation 576
+Error = -21.433308
+Test Sum Error = 3.356470
+Generation 577
+Error = -21.334720
+Test Sum Error = 3.327044
+Generation 578
+Error = -21.135720
+Test Sum Error = 3.301381
+Generation 579
+Error = -20.963971
+Test Sum Error = 3.266950
+Generation 580
+Error = -20.728458
+Test Sum Error = 3.250017
+Generation 581
+Error = -20.613441
+Test Sum Error = 3.225727
+Generation 582
+Error = -20.450788
+Test Sum Error = 3.199628
+Generation 583
+Error = -20.282983
+Test Sum Error = 3.254540
+Generation 584
+Error = -20.649550
+Test Sum Error = 3.229843
+Generation 585
+Error = -20.482921
+Test Sum Error = 3.228876
+Generation 586
+Error = -20.476983
+Test Sum Error = 3.209782
+Generation 587
+Error = -20.348541
+Test Sum Error = 3.179543
+Generation 588
+Error = -20.144647
+Test Sum Error = 3.173001
+Generation 589
+Error = -20.100703
+Test Sum Error = 3.155460
+Generation 590
+Error = -19.982892
+Test Sum Error = 3.122701
+Generation 591
+Error = -19.762333
+Test Sum Error = 3.109249
+Generation 592
+Error = -19.671148
+Test Sum Error = 3.095637
+Generation 593
+Error = -19.578071
+Test Sum Error = 3.055004
+Generation 594
+Error = -19.304639
+Test Sum Error = 3.048615
+Generation 595
+Error = -19.261066
+Test Sum Error = 3.033461
+Generation 596
+Error = -19.157897
+Test Sum Error = 3.005295
+Generation 597
+Error = -18.968294
+Test Sum Error = 2.984490
+Generation 598
+Error = -18.826838
+Test Sum Error = 3.007746
+Generation 599
+Error = -18.978903
+Test Sum Error = 2.976564
+Generation 600
+Error = -18.768848
+Test Sum Error = 2.962987
+Generation 601
+Error = -18.677816
+Test Sum Error = 2.949840
+Generation 602
+Error = -18.592558
+Test Sum Error = 2.935802
+Generation 603
+Error = -18.498332
+Test Sum Error = 2.931360
+Generation 604
+Error = -18.469213
+Test Sum Error = 2.928085
+Generation 605
+Error = -18.447410
+Test Sum Error = 2.926424
+Generation 606
+Error = -18.436034
+Test Sum Error = 2.914956
+Generation 607
+Error = -18.358428
+Test Sum Error = 2.909536
+Generation 608
+Error = -18.322208
+Test Sum Error = 2.905820
+Generation 609
+Error = -18.297230
+Test Sum Error = 2.875333
+Generation 610
+Error = -18.093650
+Test Sum Error = 2.852336
+Generation 611
+Error = -17.939729
+Test Sum Error = 2.836166
+Generation 612
+Error = -17.832062
+Test Sum Error = 2.826420
+Generation 613
+Error = -17.766141
+Test Sum Error = 2.826707
+Generation 614
+Error = -17.768330
+Test Sum Error = 2.816559
+Generation 615
+Error = -17.699904
+Test Sum Error = 2.795312
+Generation 616
+Error = -17.556231
+Test Sum Error = 2.775718
+Generation 617
+Error = -17.424525
+Test Sum Error = 2.750373
+Generation 618
+Error = -17.254874
+Test Sum Error = 2.738572
+Generation 619
+Error = -17.174966
+Test Sum Error = 2.730200
+Generation 620
+Error = -17.118354
+Test Sum Error = 2.705343
+Generation 621
+Error = -16.951101
+Test Sum Error = 2.698230
+Generation 622
+Error = -16.905115
+Test Sum Error = 2.667483
+Generation 623
+Error = -16.698987
+Test Sum Error = 2.642920
+Generation 624
+Error = -16.533501
+Test Sum Error = 2.641600
+Generation 625
+Error = -16.523972
+Test Sum Error = 2.614613
+Generation 626
+Error = -16.342908
+Test Sum Error = 2.613129
+Generation 627
+Error = -16.332315
+Test Sum Error = 2.602534
+Generation 628
+Error = -16.260364
+Test Sum Error = 2.579808
+Generation 629
+Error = -16.107661
+Test Sum Error = 2.573519
+Generation 630
+Error = -16.064331
+Test Sum Error = 2.565174
+Generation 631
+Error = -16.006708
+Test Sum Error = 2.541547
+Generation 632
+Error = -15.847838
+Test Sum Error = 2.509916
+Generation 633
+Error = -15.635854
+Test Sum Error = 2.478887
+Generation 634
+Error = -15.427004
+Test Sum Error = 2.485203
+Generation 635
+Error = -15.466468
+Test Sum Error = 2.470379
+Generation 636
+Error = -15.366901
+Test Sum Error = 2.440451
+Generation 637
+Error = -15.167069
+Test Sum Error = 2.416211
+Generation 638
+Error = -15.004009
+Test Sum Error = 2.414226
+Generation 639
+Error = -14.990306
+Test Sum Error = 2.396880
+Generation 640
+Error = -14.872781
+Test Sum Error = 2.381120
+Generation 641
+Error = -14.767395
+Test Sum Error = 2.374058
+Generation 642
+Error = -14.707546
+Test Sum Error = 2.359104
+Generation 643
+Error = -14.607744
+Test Sum Error = 2.341296
+Generation 644
+Error = -14.488828
+Test Sum Error = 2.339193
+Generation 645
+Error = -14.474110
+Test Sum Error = 2.339963
+Generation 646
+Error = -14.476665
+Test Sum Error = 2.316439
+Generation 647
+Error = -14.319988
+Test Sum Error = 2.323963
+Generation 648
+Error = -14.368958
+Test Sum Error = 2.312177
+Generation 649
+Error = -14.289397
+Test Sum Error = 2.307148
+Generation 650
+Error = -14.256666
+Test Sum Error = 2.285185
+Generation 651
+Error = -14.109751
+Test Sum Error = 2.276160
+Generation 652
+Error = -14.048372
+Test Sum Error = 2.250519
+Generation 653
+Error = -13.877539
+Test Sum Error = 2.258451
+Generation 654
+Error = -13.927334
+Test Sum Error = 2.250664
+Generation 655
+Error = -13.874612
+Test Sum Error = 2.237846
+Generation 656
+Error = -13.789430
+Test Sum Error = 2.226764
+Generation 657
+Error = -13.714186
+Test Sum Error = 2.219977
+Generation 658
+Error = -13.667595
+Test Sum Error = 2.204388
+Generation 659
+Error = -13.562612
+Test Sum Error = 2.187856
+Generation 660
+Error = -13.451290
+Test Sum Error = 2.179060
+Generation 661
+Error = -13.391971
+Test Sum Error = 2.170427
+Generation 662
+Error = -13.333370
+Test Sum Error = 2.154521
+Generation 663
+Error = -13.227051
+Test Sum Error = 2.132017
+Generation 664
+Error = -13.076311
+Test Sum Error = 2.113129
+Generation 665
+Error = -12.949778
+Test Sum Error = 2.094541
+Generation 666
+Error = -12.825602
+Test Sum Error = 2.079502
+Generation 667
+Error = -12.723977
+Test Sum Error = 2.079257
+Generation 668
+Error = -12.719864
+Test Sum Error = 2.058214
+Generation 669
+Error = -12.579096
+Test Sum Error = 2.058791
+Generation 670
+Error = -12.584933
+Test Sum Error = 2.049992
+Generation 671
+Error = -12.524877
+Test Sum Error = 2.056103
+Generation 672
+Error = -12.562060
+Test Sum Error = 2.045498
+Generation 673
+Error = -12.490937
+Test Sum Error = 2.027818
+Generation 674
+Error = -12.372212
+Test Sum Error = 2.025112
+Generation 675
+Error = -12.354363
+Test Sum Error = 2.017392
+Generation 676
+Error = -12.302531
+Test Sum Error = 2.002633
+Generation 677
+Error = -12.202761
+Test Sum Error = 2.002015
+Generation 678
+Error = -12.198069
+Test Sum Error = 1.992104
+Generation 679
+Error = -12.132818
+Test Sum Error = 1.976087
+Generation 680
+Error = -12.024905
+Test Sum Error = 1.972836
+Generation 681
+Error = -12.002917
+Test Sum Error = 1.971024
+Generation 682
+Error = -11.990286
+Test Sum Error = 1.964509
+Generation 683
+Error = -11.946162
+Test Sum Error = 1.943235
+Generation 684
+Error = -11.804073
+Test Sum Error = 1.920019
+Generation 685
+Error = -11.648286
+Test Sum Error = 1.900582
+Generation 686
+Error = -11.520727
+Test Sum Error = 1.892027
+Generation 687
+Error = -11.462606
+Test Sum Error = 1.879191
+Generation 688
+Error = -11.376899
+Test Sum Error = 1.869233
+Generation 689
+Error = -11.310334
+Test Sum Error = 1.862923
+Generation 690
+Error = -11.267353
+Test Sum Error = 1.840132
+Generation 691
+Error = -11.114231
+Test Sum Error = 1.832988
+Generation 692
+Error = -11.066810
+Test Sum Error = 1.836770
+Generation 693
+Error = -11.091358
+Test Sum Error = 1.828954
+Generation 694
+Error = -11.039382
+Test Sum Error = 1.813080
+Generation 695
+Error = -10.933239
+Test Sum Error = 1.803508
+Generation 696
+Error = -10.868317
+Test Sum Error = 1.795103
+Generation 697
+Error = -10.811513
+Test Sum Error = 1.786597
+Generation 698
+Error = -10.754655
+Test Sum Error = 1.778838
+Generation 699
+Error = -10.702782
+Test Sum Error = 1.766525
+Generation 700
+Error = -10.620136
+Test Sum Error = 1.763523
+Generation 701
+Error = -10.598943
+Test Sum Error = 1.760336
+Generation 702
+Error = -10.578437
+Test Sum Error = 1.748266
+Generation 703
+Error = -10.497502
+Test Sum Error = 1.738304
+Generation 704
+Error = -10.430939
+Test Sum Error = 1.723121
+Generation 705
+Error = -10.328968
+Test Sum Error = 1.720127
+Generation 706
+Error = -10.308453
+Test Sum Error = 1.716794
+Generation 707
+Error = -10.285228
+Test Sum Error = 1.711311
+Generation 708
+Error = -10.247833
+Test Sum Error = 1.691372
+Generation 709
+Error = -10.113967
+Test Sum Error = 1.683435
+Generation 710
+Error = -10.060499
+Test Sum Error = 1.667137
+Generation 711
+Error = -9.950974
+Test Sum Error = 1.661000
+Generation 712
+Error = -9.909582
+Test Sum Error = 1.646872
+Generation 713
+Error = -9.814828
+Test Sum Error = 1.640323
+Generation 714
+Error = -9.771527
+Test Sum Error = 1.620709
+Generation 715
+Error = -9.639801
+Test Sum Error = 1.608623
+Generation 716
+Error = -9.559091
+Test Sum Error = 1.596312
+Generation 717
+Error = -9.476879
+Test Sum Error = 1.584942
+Generation 718
+Error = -9.400679
+Test Sum Error = 1.598425
+Generation 719
+Error = -9.488999
+Test Sum Error = 1.596919
+Generation 720
+Error = -9.478145
+Test Sum Error = 1.588121
+Generation 721
+Error = -9.418789
+Test Sum Error = 1.574047
+Generation 722
+Error = -9.326708
+Test Sum Error = 1.556576
+Generation 723
+Error = -9.209424
+Test Sum Error = 1.555167
+Generation 724
+Error = -9.199812
+Test Sum Error = 1.538187
+Generation 725
+Error = -9.085619
+Test Sum Error = 1.525033
+Generation 726
+Error = -8.997643
+Test Sum Error = 1.549420
+Generation 727
+Error = -9.155674
+Test Sum Error = 1.538857
+Generation 728
+Error = -9.085850
+Test Sum Error = 1.527599
+Generation 729
+Error = -9.010441
+Test Sum Error = 1.514224
+Generation 730
+Error = -8.921716
+Test Sum Error = 1.504715
+Generation 731
+Error = -8.858476
+Test Sum Error = 1.489390
+Generation 732
+Error = -8.755771
+Test Sum Error = 1.482624
+Generation 733
+Error = -8.710448
+Test Sum Error = 1.469304
+Generation 734
+Error = -8.620977
+Test Sum Error = 1.457388
+Generation 735
+Error = -8.540594
+Test Sum Error = 1.443112
+Generation 736
+Error = -8.445507
+Test Sum Error = 1.434495
+Generation 737
+Error = -8.387528
+Test Sum Error = 1.430142
+Generation 738
+Error = -8.358056
+Test Sum Error = 1.441680
+Generation 739
+Error = -8.435138
+Test Sum Error = 1.431717
+Generation 740
+Error = -8.368641
+Test Sum Error = 1.429442
+Generation 741
+Error = -8.353352
+Test Sum Error = 1.418380
+Generation 742
+Error = -8.278665
+Test Sum Error = 1.410014
+Generation 743
+Error = -8.222267
+Test Sum Error = 1.409252
+Generation 744
+Error = -8.217161
+Test Sum Error = 1.399015
+Generation 745
+Error = -8.148028
+Test Sum Error = 1.392268
+Generation 746
+Error = -8.102890
+Test Sum Error = 1.379954
+Generation 747
+Error = -8.020589
+Test Sum Error = 1.383954
+Generation 748
+Error = -8.046674
+Test Sum Error = 1.384551
+Generation 749
+Error = -8.051157
+Test Sum Error = 1.377370
+Generation 750
+Error = -8.002523
+Test Sum Error = 1.376124
+Generation 751
+Error = -7.994121
+Test Sum Error = 1.375060
+Generation 752
+Error = -7.986924
+Test Sum Error = 1.362482
+Generation 753
+Error = -7.902644
+Test Sum Error = 1.354285
+Generation 754
+Error = -7.847300
+Test Sum Error = 1.352305
+Generation 755
+Error = -7.833656
+Test Sum Error = 1.342263
+Generation 756
+Error = -7.766436
+Test Sum Error = 1.333662
+Generation 757
+Error = -7.708256
+Test Sum Error = 1.327612
+Generation 758
+Error = -7.667921
+Test Sum Error = 1.323777
+Generation 759
+Error = -7.643060
+Test Sum Error = 1.308270
+Generation 760
+Error = -7.538789
+Test Sum Error = 1.306443
+Generation 761
+Error = -7.525876
+Test Sum Error = 1.295254
+Generation 762
+Error = -7.450949
+Test Sum Error = 1.289856
+Generation 763
+Error = -7.414417
+Test Sum Error = 1.288655
+Generation 764
+Error = -7.405855
+Test Sum Error = 1.280830
+Generation 765
+Error = -7.353189
+Test Sum Error = 1.274052
+Generation 766
+Error = -7.307199
+Test Sum Error = 1.265522
+Generation 767
+Error = -7.249545
+Test Sum Error = 1.262281
+Generation 768
+Error = -7.228678
+Test Sum Error = 1.255110
+Generation 769
+Error = -7.180154
+Test Sum Error = 1.244125
+Generation 770
+Error = -7.106787
+Test Sum Error = 1.243179
+Generation 771
+Error = -7.100164
+Test Sum Error = 1.228882
+Generation 772
+Error = -7.004311
+Test Sum Error = 1.224132
+Generation 773
+Error = -6.972116
+Test Sum Error = 1.222532
+Generation 774
+Error = -6.960926
+Test Sum Error = 1.212412
+Generation 775
+Error = -6.893233
+Test Sum Error = 1.210440
+Generation 776
+Error = -6.879725
+Test Sum Error = 1.208796
+Generation 777
+Error = -6.868311
+Test Sum Error = 1.209090
+Generation 778
+Error = -6.870814
+Test Sum Error = 1.197051
+Generation 779
+Error = -6.790118
+Test Sum Error = 1.187752
+Generation 780
+Error = -6.727522
+Test Sum Error = 1.185516
+Generation 781
+Error = -6.712967
+Test Sum Error = 1.174760
+Generation 782
+Error = -6.640553
+Test Sum Error = 1.166675
+Generation 783
+Error = -6.585991
+Test Sum Error = 1.170612
+Generation 784
+Error = -6.609892
+Test Sum Error = 1.165575
+Generation 785
+Error = -6.576951
+Test Sum Error = 1.155419
+Generation 786
+Error = -6.510254
+Test Sum Error = 1.151390
+Generation 787
+Error = -6.481313
+Test Sum Error = 1.139947
+Generation 788
+Error = -6.404628
+Test Sum Error = 1.136961
+Generation 789
+Error = -6.384230
+Test Sum Error = 1.133209
+Generation 790
+Error = -6.359597
+Test Sum Error = 1.125665
+Generation 791
+Error = -6.309118
+Test Sum Error = 1.117611
+Generation 792
+Error = -6.255125
+Test Sum Error = 1.115966
+Generation 793
+Error = -6.243694
+Test Sum Error = 1.105584
+Generation 794
+Error = -6.174270
+Test Sum Error = 1.100811
+Generation 795
+Error = -6.142802
+Test Sum Error = 1.096681
+Generation 796
+Error = -6.115238
+Test Sum Error = 1.086150
+Generation 797
+Error = -6.044706
+Test Sum Error = 1.084604
+Generation 798
+Error = -6.033777
+Test Sum Error = 1.078503
+Generation 799
+Error = -5.993040
+Test Sum Error = 1.067010
+Generation 800
+Error = -5.916259
+Test Sum Error = 1.062460
+Generation 801
+Error = -5.884816
+Test Sum Error = 1.054537
+Generation 802
+Error = -5.831861
+Test Sum Error = 1.057434
+Generation 803
+Error = -5.848501
+Test Sum Error = 1.056888
+Generation 804
+Error = -5.845641
+Test Sum Error = 1.052972
+Generation 805
+Error = -5.819036
+Test Sum Error = 1.047719
+Generation 806
+Error = -5.783520
+Test Sum Error = 1.044400
+Generation 807
+Error = -5.760802
+Test Sum Error = 1.034873
+Generation 808
+Error = -5.697397
+Test Sum Error = 1.029954
+Generation 809
+Error = -5.663999
+Test Sum Error = 1.026859
+Generation 810
+Error = -5.643177
+Test Sum Error = 1.024006
+Generation 811
+Error = -5.623808
+Test Sum Error = 1.016622
+Generation 812
+Error = -5.574188
+Test Sum Error = 1.008652
+Generation 813
+Error = -5.520916
+Test Sum Error = 0.999064
+Generation 814
+Error = -5.456695
+Test Sum Error = 0.999019
+Generation 815
+Error = -5.455573
+Test Sum Error = 0.993362
+Generation 816
+Error = -5.419369
+Test Sum Error = 0.990792
+Generation 817
+Error = -5.402120
+Test Sum Error = 0.986975
+Generation 818
+Error = -5.376643
+Test Sum Error = 0.977414
+Generation 819
+Error = -5.312659
+Test Sum Error = 0.976183
+Generation 820
+Error = -5.304408
+Test Sum Error = 0.967095
+Generation 821
+Error = -5.243674
+Test Sum Error = 0.962835
+Generation 822
+Error = -5.215067
+Test Sum Error = 0.953457
+Generation 823
+Error = -5.152210
+Test Sum Error = 0.949338
+Generation 824
+Error = -5.124579
+Test Sum Error = 0.939083
+Generation 825
+Error = -5.055666
+Test Sum Error = 0.934590
+Generation 826
+Error = -5.025584
+Test Sum Error = 0.925471
+Generation 827
+Error = -4.964354
+Test Sum Error = 0.922033
+Generation 828
+Error = -4.941364
+Test Sum Error = 0.919735
+Generation 829
+Error = -4.925700
+Test Sum Error = 0.916401
+Generation 830
+Error = -4.903015
+Test Sum Error = 0.915619
+Generation 831
+Error = -4.897320
+Test Sum Error = 0.906184
+Generation 832
+Error = -4.834206
+Test Sum Error = 0.897993
+Generation 833
+Error = -4.779224
+Test Sum Error = 0.897524
+Generation 834
+Error = -4.776043
+Test Sum Error = 0.893869
+Generation 835
+Error = -4.751184
+Test Sum Error = 0.887605
+Generation 836
+Error = -4.709685
+Test Sum Error = 0.878868
+Generation 837
+Error = -4.651367
+Test Sum Error = 0.875860
+Generation 838
+Error = -4.631058
+Test Sum Error = 0.869042
+Generation 839
+Error = -4.585582
+Test Sum Error = 0.860517
+Generation 840
+Error = -4.528678
+Test Sum Error = 0.852179
+Generation 841
+Error = -4.473049
+Test Sum Error = 0.847946
+Generation 842
+Error = -4.443784
+Test Sum Error = 0.843884
+Generation 843
+Error = -4.416904
+Test Sum Error = 0.839833
+Generation 844
+Error = -4.389601
+Test Sum Error = 0.832007
+Generation 845
+Error = -4.337383
+Test Sum Error = 0.829601
+Generation 846
+Error = -4.321106
+Test Sum Error = 0.825864
+Generation 847
+Error = -4.296143
+Test Sum Error = 0.820132
+Generation 848
+Error = -4.257975
+Test Sum Error = 0.814574
+Generation 849
+Error = -4.220634
+Test Sum Error = 0.813043
+Generation 850
+Error = -4.210164
+Test Sum Error = 0.809936
+Generation 851
+Error = -4.189405
+Test Sum Error = 0.805102
+Generation 852
+Error = -4.156791
+Test Sum Error = 0.803643
+Generation 853
+Error = -4.146703
+Test Sum Error = 0.803020
+Generation 854
+Error = -4.142732
+Test Sum Error = 0.796821
+Generation 855
+Error = -4.101175
+Test Sum Error = 0.789796
+Generation 856
+Error = -4.053895
+Test Sum Error = 0.783585
+Generation 857
+Error = -4.011011
+Test Sum Error = 0.780505
+Generation 858
+Error = -3.990289
+Test Sum Error = 0.776210
+Generation 859
+Error = -3.961573
+Test Sum Error = 0.773337
+Generation 860
+Error = -3.942361
+Test Sum Error = 0.767037
+Generation 861
+Error = -3.900178
+Test Sum Error = 0.760650
+Generation 862
+Error = -3.857569
+Test Sum Error = 0.753995
+Generation 863
+Error = -3.813063
+Test Sum Error = 0.747152
+Generation 864
+Error = -3.767096
+Test Sum Error = 0.756727
+Generation 865
+Error = -3.829732
+Test Sum Error = 0.753111
+Generation 866
+Error = -3.804485
+Test Sum Error = 0.748913
+Generation 867
+Error = -3.776110
+Test Sum Error = 0.745040
+Generation 868
+Error = -3.750057
+Test Sum Error = 0.741630
+Generation 869
+Error = -3.726995
+Test Sum Error = 0.734965
+Generation 870
+Error = -3.682392
+Test Sum Error = 0.729274
+Generation 871
+Error = -3.644093
+Test Sum Error = 0.727514
+Generation 872
+Error = -3.631888
+Test Sum Error = 0.723759
+Generation 873
+Error = -3.607510
+Test Sum Error = 0.717487
+Generation 874
+Error = -3.565461
+Test Sum Error = 0.713886
+Generation 875
+Error = -3.540644
+Test Sum Error = 0.712753
+Generation 876
+Error = -3.533512
+Test Sum Error = 0.710842
+Generation 877
+Error = -3.520641
+Test Sum Error = 0.708764
+Generation 878
+Error = -3.506917
+Test Sum Error = 0.707526
+Generation 879
+Error = -3.498715
+Test Sum Error = 0.706043
+Generation 880
+Error = -3.488452
+Test Sum Error = 0.702220
+Generation 881
+Error = -3.462759
+Test Sum Error = 0.696797
+Generation 882
+Error = -3.426390
+Test Sum Error = 0.689934
+Generation 883
+Error = -3.380307
+Test Sum Error = 0.686515
+Generation 884
+Error = -3.357482
+Test Sum Error = 0.685211
+Generation 885
+Error = -3.348454
+Test Sum Error = 0.682029
+Generation 886
+Error = -3.327211
+Test Sum Error = 0.679520
+Generation 887
+Error = -3.310309
+Test Sum Error = 0.675718
+Generation 888
+Error = -3.284829
+Test Sum Error = 0.674524
+Generation 889
+Error = -3.276628
+Test Sum Error = 0.668612
+Generation 890
+Error = -3.237180
+Test Sum Error = 0.664627
+Generation 891
+Error = -3.210505
+Test Sum Error = 0.667718
+Generation 892
+Error = -3.229541
+Test Sum Error = 0.662629
+Generation 893
+Error = -3.196024
+Test Sum Error = 0.659254
+Generation 894
+Error = -3.173493
+Test Sum Error = 0.654449
+Generation 895
+Error = -3.141541
+Test Sum Error = 0.653320
+Generation 896
+Error = -3.133966
+Test Sum Error = 0.649296
+Generation 897
+Error = -3.107665
+Test Sum Error = 0.647441
+Generation 898
+Error = -3.095151
+Test Sum Error = 0.643517
+Generation 899
+Error = -3.068675
+Test Sum Error = 0.639431
+Generation 900
+Error = -3.041367
+Test Sum Error = 0.635074
+Generation 901
+Error = -3.012134
+Test Sum Error = 0.629611
+Generation 902
+Error = -2.975487
+Test Sum Error = 0.628965
+Generation 903
+Error = -2.970939
+Test Sum Error = 0.626771
+Generation 904
+Error = -2.956250
+Test Sum Error = 0.625772
+Generation 905
+Error = -2.949337
+Test Sum Error = 0.624910
+Generation 906
+Error = -2.943498
+Test Sum Error = 0.624007
+Generation 907
+Error = -2.937235
+Test Sum Error = 0.623311
+Generation 908
+Error = -2.932583
+Test Sum Error = 0.621463
+Generation 909
+Error = -2.920246
+Test Sum Error = 0.615628
+Generation 910
+Error = -2.881139
+Test Sum Error = 0.612020
+Generation 911
+Error = -2.856910
+Test Sum Error = 0.611179
+Generation 912
+Error = -2.851267
+Test Sum Error = 0.610621
+Generation 913
+Error = -2.847385
+Test Sum Error = 0.606516
+Generation 914
+Error = -2.819903
+Test Sum Error = 0.603876
+Generation 915
+Error = -2.802196
+Test Sum Error = 0.603660
+Generation 916
+Error = -2.800754
+Test Sum Error = 0.599141
+Generation 917
+Error = -2.770458
+Test Sum Error = 0.597770
+Generation 918
+Error = -2.761127
+Test Sum Error = 0.594558
+Generation 919
+Error = -2.739413
+Test Sum Error = 0.591482
+Generation 920
+Error = -2.718858
+Test Sum Error = 0.588995
+Generation 921
+Error = -2.702207
+Test Sum Error = 0.583766
+Generation 922
+Error = -2.667275
+Test Sum Error = 0.579697
+Generation 923
+Error = -2.639858
+Test Sum Error = 0.575973
+Generation 924
+Error = -2.614810
+Test Sum Error = 0.572838
+Generation 925
+Error = -2.593815
+Test Sum Error = 0.569572
+Generation 926
+Error = -2.571974
+Test Sum Error = 0.566263
+Generation 927
+Error = -2.549270
+Test Sum Error = 0.564899
+Generation 928
+Error = -2.540698
+Test Sum Error = 0.563954
+Generation 929
+Error = -2.534318
+Test Sum Error = 0.562998
+Generation 930
+Error = -2.527805
+Test Sum Error = 0.560495
+Generation 931
+Error = -2.511205
+Test Sum Error = 0.561863
+Generation 932
+Error = -2.520306
+Test Sum Error = 0.558347
+Generation 933
+Error = -2.496714
+Test Sum Error = 0.555222
+Generation 934
+Error = -2.475640
+Test Sum Error = 0.551087
+Generation 935
+Error = -2.447843
+Test Sum Error = 0.549205
+Generation 936
+Error = -2.435093
+Test Sum Error = 0.547705
+Generation 937
+Error = -2.425027
+Test Sum Error = 0.545536
+Generation 938
+Error = -2.410345
+Test Sum Error = 0.543733
+Generation 939
+Error = -2.398451
+Test Sum Error = 0.540626
+Generation 940
+Error = -2.377539
+Test Sum Error = 0.539381
+Generation 941
+Error = -2.369218
+Test Sum Error = 0.535632
+Generation 942
+Error = -2.344122
+Test Sum Error = 0.533941
+Generation 943
+Error = -2.332706
+Test Sum Error = 0.531230
+Generation 944
+Error = -2.314493
+Test Sum Error = 0.527638
+Generation 945
+Error = -2.290495
+Test Sum Error = 0.527202
+Generation 946
+Error = -2.287418
+Test Sum Error = 0.528521
+Generation 947
+Error = -2.294991
+Test Sum Error = 0.524041
+Generation 948
+Error = -2.264883
+Test Sum Error = 0.521745
+Generation 949
+Error = -2.249351
+Test Sum Error = 0.518053
+Generation 950
+Error = -2.225017
+Test Sum Error = 0.515070
+Generation 951
+Error = -2.205150
+Test Sum Error = 0.514455
+Generation 952
+Error = -2.200193
+Test Sum Error = 0.512211
+Generation 953
+Error = -2.185203
+Test Sum Error = 0.510481
+Generation 954
+Error = -2.173555
+Test Sum Error = 0.512989
+Generation 955
+Error = -2.190580
+Test Sum Error = 0.512769
+Generation 956
+Error = -2.189011
+Test Sum Error = 0.511504
+Generation 957
+Error = -2.180426
+Test Sum Error = 0.508647
+Generation 958
+Error = -2.161251
+Test Sum Error = 0.506131
+Generation 959
+Error = -2.144416
+Test Sum Error = 0.504917
+Generation 960
+Error = -2.136153
+Test Sum Error = 0.504066
+Generation 961
+Error = -2.130192
+Test Sum Error = 0.503684
+Generation 962
+Error = -2.127726
+Test Sum Error = 0.500081
+Generation 963
+Error = -2.103561
+Test Sum Error = 0.501565
+Generation 964
+Error = -2.113656
+Test Sum Error = 0.501242
+Generation 965
+Error = -2.111443
+Test Sum Error = 0.500997
+Generation 966
+Error = -2.109725
+Test Sum Error = 0.499094
+Generation 967
+Error = -2.097013
+Test Sum Error = 0.498609
+Generation 968
+Error = -2.093564
+Test Sum Error = 0.497909
+Generation 969
+Error = -2.088759
+Test Sum Error = 0.495435
+Generation 970
+Error = -2.072218
+Test Sum Error = 0.492324
+Generation 971
+Error = -2.051351
+Test Sum Error = 0.491461
+Generation 972
+Error = -2.045400
+Test Sum Error = 0.490599
+Generation 973
+Error = -2.039509
+Test Sum Error = 0.489623
+Generation 974
+Error = -2.032879
+Test Sum Error = 0.485675
+Generation 975
+Error = -2.006433
+Test Sum Error = 0.485395
+Generation 976
+Error = -2.004360
+Test Sum Error = 0.483100
+Generation 977
+Error = -1.988884
+Test Sum Error = 0.480250
+Generation 978
+Error = -1.969715
+Test Sum Error = 0.477750
+Generation 979
+Error = -1.953038
+Test Sum Error = 0.474085
+Generation 980
+Error = -1.928416
+Test Sum Error = 0.473470
+Generation 981
+Error = -1.924260
+Test Sum Error = 0.470643
+Generation 982
+Error = -1.905292
+Test Sum Error = 0.469023
+Generation 983
+Error = -1.894062
+Test Sum Error = 0.467456
+Generation 984
+Error = -1.883907
+Test Sum Error = 0.465426
+Generation 985
+Error = -1.870318
+Test Sum Error = 0.461858
+Generation 986
+Error = -1.846267
+Test Sum Error = 0.461360
+Generation 987
+Error = -1.843240
+Test Sum Error = 0.463524
+Generation 988
+Error = -1.857682
+Test Sum Error = 0.461006
+Generation 989
+Error = -1.840713
+Test Sum Error = 0.459180
+Generation 990
+Error = -1.828367
+Test Sum Error = 0.458125
+Generation 991
+Error = -1.821348
+Test Sum Error = 0.455089
+Generation 992
+Error = -1.800917
+Test Sum Error = 0.453240
+Generation 993
+Error = -1.788358
+Test Sum Error = 0.453782
+Generation 994
+Error = -1.791813
+Test Sum Error = 0.451032
+Generation 995
+Error = -1.773738
+Test Sum Error = 0.450717
+Generation 996
+Error = -1.771078
+Test Sum Error = 0.447882
+Generation 997
+Error = -1.752075
+Test Sum Error = 0.444556
+Generation 998
+Error = -1.729755
+Test Sum Error = 0.444447
+Generation 999
+Traceback (most recent call last):
+  File "/Users/newfrontier2/Desktop/School/CSCI447/Project3/project_3/__init__.py", line 222, in <module>
+    for j in range(len(inputArray[0][0])):
+TypeError: object of type 'float' has no len()
+
+Process finished with exit code 1

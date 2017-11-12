@@ -21,6 +21,7 @@ class GA:
         self.population = []
         self.population_error = numpy.ones(shape=(pop_size, 1))
         self.threshold = 1
+        self.momentum = 0.003
         self.activation_type = "s"
         self.num_of_hidden = num_of_hidden
         self.all_runs = []
@@ -110,7 +111,7 @@ class GA:
         for j in range(len(self.population)):                               #iterate to each gene and mutate based on mutation rate
             for i in range(len(self.population[0])):
                 if random.random() < self.mutation_rate:
-                    self.population[j][i] += (random.random() * (self.population_error[j]*0.001)/self.pop_size)
+                    self.population[j][i] += (random.random() * (self.population_error[j]*self.momentum)/self.pop_size)
 
     def winner(self, epoch):
         print("Error = %f" % (self.population_error[0]))

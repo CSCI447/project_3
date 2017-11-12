@@ -7,21 +7,98 @@ import codecs
 import time
 
 
-neural_net = "ES"                           #"BP" or "GA" or "DE" or "ES";  This decides what network to run
+neural_net = "DE"                           #"BP" or "GA" or "DE" or "ES";  This decides what network to run
+data_set = "fert"                          #which data set will be run
 inputArray = []                             #Generate initial input array
 expectedOutputArray = []                    #Generate expected output array
 cross_valid_fold = 8                        #used to determine how many folds in crossvalidation
-
-with codecs.open('Data_old_fortest/2_dim.csv', 'r', encoding='utf-8') as inputcsvfile:              #pull in input data from csv
-    csv_input = csv.reader(inputcsvfile, delimiter=",")
-    for row in csv_input:
-        inputArray.append(row)
-
 cross_variable = 0
-with codecs.open('Data_old_fortest/2_dim_out.csv', 'r', encoding='utf-8') as outputcsvfile:         #pull in varifaction data from csv
-    csv_output = csv.reader(outputcsvfile, delimiter=",")
-    for row in csv_output:
-        expectedOutputArray.append(row)
+if data_set == "rb":                        #rosenbrock (used for testing during devolopement)
+    with codecs.open('Data_old_fortest/2_dim.csv', 'r', encoding='utf-8') as inputcsvfile:              #pull in input data from csv
+        csv_input = csv.reader(inputcsvfile, delimiter=",")
+        for row in csv_input:
+            inputArray.append(row)
+    with codecs.open('Data_old_fortest/2_dim_out.csv', 'r', encoding='utf-8') as outputcsvfile:         #pull in verifaction data from csv
+        csv_output = csv.reader(outputcsvfile, delimiter=",")
+        for row in csv_output:
+            expectedOutputArray.append(row)
+elif data_set == "wine":                        #wine dataset
+    with codecs.open('Data/wine.csv', 'r', encoding='utf-8') as wine:
+        csv_input = csv.reader(wine, delimiter=",")
+        for row in csv_input:
+            example_input = []
+            example_output = []
+            for element in range(len(row)):
+                if element < len(row) - 1:
+                    example_input.append(float(row[element]))
+                else:
+                    example_output.append(float(row[element]))
+            inputArray.append(example_input)
+            expectedOutputArray.append(example_output)
+elif data_set == "fert":                  #fertility dataset
+    with codecs.open('Data/fertility.csv', 'r', encoding='utf-8') as fertility:
+        csv_input = csv.reader(fertility, delimiter=",")
+        for row in csv_input:
+            example_input = []
+            example_output = []
+            for element in range(len(row)):
+                if element < len(row) - 1:
+                    example_input.append(float(row[element]))
+                else:
+                    if row[element] == "O":
+                        example_output.append(0)        #vectorization of categorical feature
+                    else:
+                        example_output.append(1)
+            inputArray.append(example_input)
+            expectedOutputArray.append(example_output)
+elif data_set == "glass":                               #glass identificaation datset
+    with codecs.open('Data/glass_identification.csv', 'r', encoding='utf-8') as glass:
+        csv_input = csv.reader(glass, delimiter=",")
+        for row in csv_input:
+            example_input = []
+            example_output = []
+            for element in range(len(row)):
+                if element < len(row) - 1:
+                     example_input.append(float(row[element]))
+                else:
+                     example_output.append(float(row[element]))
+            inputArray.append(example_input)
+            expectedOutputArray.append(example_output)
+elif data_set == "cmc":                              #contraceptive method choice dataset
+    with codecs.open('Data/contraceptive_method_choice.csv', 'r', encoding='utf-8') as cmc:
+        csv_input = csv.reader(cmc, delimiter=",")
+        for row in csv_input:
+            example_input = []
+            example_output = []
+            for element in range(len(row)):
+                if element < len(row) - 1:
+                     example_input.append(float(row[element]))
+                else:
+                     example_output.append(float(row[element]))
+            inputArray.append(example_input)
+            expectedOutputArray.append(example_output)
+elif data_set == "abl":                          #abalone dataset
+    with codecs.open('Data/abalone.csv', 'r', encoding='utf-8') as abl:
+        csv_input = csv.reader(abl, delimiter=",")
+        for row in csv_input:
+            example_input = []
+            example_output = []
+            for element in range(len(row)):
+                if element < len(row) - 1:
+                    if element == 0:
+                        if row[element] == 'M':            #vectorization of categorical feature
+                            example_input.append(0.0)
+                        elif row[element] == "I":
+                            example_input.append(0.5)
+                        elif row[element] == "F":
+                            example_input.append(1.0)
+                    else:
+                     example_input.append(float(row[element]))
+                else:
+                     example_output.append(float(row[element]))
+            inputArray.append(example_input)
+            expectedOutputArray.append(example_output)
+
 
 t0 = time.time()                                        #set timing for algorithms
 len_in_outs = len(inputArray)                           #helps with crossvalidation

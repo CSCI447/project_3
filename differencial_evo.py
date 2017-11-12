@@ -18,6 +18,7 @@ class DE:
         self.population_error = numpy.ones(shape=(pop_size, 1))
         self.child_error = numpy.ones(shape=(3, 1))
         self.threshold = .001
+        self.momentum = 0.005
         self.num_of_hidden = num_of_hidden
         self.activation_type = "s"
         self.trial_vector_size = 3
@@ -136,7 +137,7 @@ class DE:
         for j in range(len(self.population)):                   #iterate through each gene and mutate based on the mutation rate
             for i in range(len(self.population[0])):
                 if random.random() < (self.mutation_rate + 1):
-                    self.population[j][i] += (random.random() * (self.population_error[j]*0.001)/self.pop_size)
+                    self.population[j][i] += (random.random() * (self.population_error[j]*self.momentum)/self.pop_size)
 
     def winner(self, epoch):
         print("Error = %f" % (self.population_error[0]))
@@ -177,4 +178,5 @@ class DE:
             print("Activation Function Mismatch")
 
     def sigmoid(self, value):                                       #activation function used
+        value = value * 0.1
         return 1.0 / (1.0 + exp(-value))

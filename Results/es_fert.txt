@@ -1,0 +1,488 @@
+/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5 /Users/newfrontier2/Desktop/School/CSCI447/Project3/project_3/__init__.py
+Error = -14806.349479
+Test Sum Error = 2152.829529
+Generation 0
+Error = -15965.291989
+Test Sum Error = 2152.829529
+Generation 1
+Error = -15965.291989
+Test Sum Error = 2152.829529
+Generation 2
+Error = -15965.291989
+Test Sum Error = 2152.829529
+Generation 3
+Error = -15965.291989
+Test Sum Error = 1917.538274
+Generation 4
+Error = -14271.817651
+Test Sum Error = 1854.574642
+Generation 5
+Error = -13783.408149
+Test Sum Error = 1890.513510
+Generation 6
+Error = -14001.460837
+Test Sum Error = 1904.711156
+Generation 7
+Error = -14154.508104
+Test Sum Error = 2117.971973
+Generation 8
+Error = -15730.658112
+Test Sum Error = 1763.729894
+Generation 9
+Error = -13114.859783
+Test Sum Error = 1763.729894
+Generation 10
+Error = -13114.859783
+Test Sum Error = 2150.421418
+Generation 11
+Error = -15956.517572
+Test Sum Error = 2150.421418
+Generation 12
+Error = -15956.517572
+Test Sum Error = 1714.056314
+Generation 13
+Error = -12729.131737
+Test Sum Error = 2150.421418
+Generation 14
+Error = -15956.517572
+Test Sum Error = 2150.421418
+Generation 15
+Error = -15956.517572
+Test Sum Error = 1781.679034
+Generation 16
+Error = -13230.273438
+Test Sum Error = 1767.266284
+Generation 17
+Error = -13117.851660
+Test Sum Error = 2145.231065
+Generation 18
+Error = -15929.285453
+Test Sum Error = 2145.231065
+Generation 19
+Error = -15929.285453
+Test Sum Error = 2011.982212
+Generation 20
+Error = -14932.744015
+Test Sum Error = 2145.231065
+Generation 21
+Error = -15929.285453
+Test Sum Error = 2083.571683
+Generation 22
+Error = -15460.333232
+Test Sum Error = 2008.860049
+Generation 23
+Error = -14916.998896
+Test Sum Error = 2139.329153
+Generation 24
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 25
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 26
+Error = -15887.010471
+Test Sum Error = 2117.866005
+Generation 27
+Error = -15726.170979
+Test Sum Error = 2139.329153
+Generation 28
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 29
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 30
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 31
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 32
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 33
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 34
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 35
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 36
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 37
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 38
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 39
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 40
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 41
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 42
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 43
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 44
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 45
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 46
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 47
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 48
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 49
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 50
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 51
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 52
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 53
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 54
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 55
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 56
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 57
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 58
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 59
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 60
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 61
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 62
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 63
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 64
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 65
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 66
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 67
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 68
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 69
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 70
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 71
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 72
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 73
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 74
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 75
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 76
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 77
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 78
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 79
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 80
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 81
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 82
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 83
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 84
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 85
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 86
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 87
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 88
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 89
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 90
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 91
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 92
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 93
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 94
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 95
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 96
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 97
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 98
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 99
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 100
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 101
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 102
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 103
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 104
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 105
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 106
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 107
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 108
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 109
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 110
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 111
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 112
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 113
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 114
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 115
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 116
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 117
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 118
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 119
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 120
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 121
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 122
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 123
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 124
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 125
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 126
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 127
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 128
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 129
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 130
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 131
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 132
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 133
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 134
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 135
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 136
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 137
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 138
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 139
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 140
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 141
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 142
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 143
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 144
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 145
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 146
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 147
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 148
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 149
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 150
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 151
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 152
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 153
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 154
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 155
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 156
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 157
+Error = -15887.010471
+Test Sum Error = 2139.329153
+Generation 158
+Traceback (most recent call last):
+  File "/Users/newfrontier2/Desktop/School/CSCI447/Project3/project_3/__init__.py", line 141, in <module>
+    ES.evolve()                                                                             #deals with the evolution of the chromosomes
+  File "/Users/newfrontier2/Desktop/School/CSCI447/Project3/project_3/evolutionary_strat.py", line 95, in evolve
+    output[j] = self.feed_ES_children(i, child)
+  File "/Users/newfrontier2/Desktop/School/CSCI447/Project3/project_3/evolutionary_strat.py", line 61, in feed_ES_children
+    child_w2 = numpy.array(child[1])
+KeyboardInterrupt
+
+Process finished with exit code 1
